@@ -15,8 +15,23 @@
 
       <div class="trigger">
         {% for page in site.pages %}
-          {% if page.title %}
-          <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+          {% if page.inMenu %}
+            <span class="navbar-item">
+            {% if page.subtitles %}
+                <a class="page-link">{{page.title}}</a>
+                <ul class="submenu">
+                  {% for subtitle in page.subtitles %}
+                    <li class="submenu-item">
+                      <a class="page-link" href="{{site.baseurl}}{{page.url}}{{ subtitle.url }}">
+                        {{ subtitle.subtitle }}
+                      </a>
+                    </li>
+                  {% endfor %}
+                </ul>
+            {% else %}
+              <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+            {% endif %}
+          </span>
           {% endif %}
         {% endfor %}
       </div>
