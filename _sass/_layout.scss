@@ -26,9 +26,30 @@
 .site-nav {
     float: right;
     line-height: 56px;
+    height: 56px;
 
     .menu-icon {
         display: none;
+    }
+
+    .submenu {
+      max-height : 0;
+      overflow: hidden;
+      transition : max-height 0.2s ease;
+      position : absolute;
+      margin-left : 0;
+    }
+
+    .navbar-item {
+      list-style : none;
+      display : inline-block;
+      padding : 0 10px;
+
+      &:hover {
+        .submenu {
+          max-height : 400px;
+        }
+      }
     }
 
     .page-link {

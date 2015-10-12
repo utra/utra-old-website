@@ -13,10 +13,10 @@
         </svg>
       </a>
 
-      <div class="trigger">
+      <ul class="trigger">
         {% for page in site.pages %}
           {% if page.inMenu %}
-            <span class="navbar-item">
+            <li class="navbar-item">
             {% if page.subtitles %}
                 <a class="page-link">{{page.title}}</a>
                 <ul class="submenu">
@@ -31,10 +31,10 @@
             {% else %}
               <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
             {% endif %}
-          </span>
+          </li>
           {% endif %}
         {% endfor %}
-      </div>
+      </ul>
     </nav>
 
   </div>
