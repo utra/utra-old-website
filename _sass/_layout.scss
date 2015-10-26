@@ -255,3 +255,27 @@
         }
     }
 }
+
+.main-header {
+  text-align : center;
+  h1 {
+    font-size : 50px;
+  }
+}
+
+.team-row {
+  .team-box {
+    display : inline-block;
+    text-align : center;
+    width : 200px;
+    line-height : 200px;
+    margin : 0 10px;
+    border-radius : 50%;
+    background-color : lightgrey;
+    font-size : 25px;
+  }
+
+  &.second-row {
+    margin-left : 90px;
+  }
+}
