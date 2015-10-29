@@ -258,12 +258,19 @@
 
 .main-header {
   text-align : center;
+  margin-bottom : 30px;
   h1 {
     font-size : 50px;
   }
 }
 
+.section-body {
+  margin-bottom : 50px;
+}
+
 .team-row {
+  text-align: center;
+
   .team-box {
     display : inline-block;
     text-align : center;
@@ -272,10 +279,6 @@
     margin : 0 10px;
     border-radius : 50%;
     background-color : lightgrey;
-    font-size : 25px;
-  }
-
-  &.second-row {
-    margin-left : 90px;
+    font-size : 30px;
   }
 }
