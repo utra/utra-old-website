@@ -15,19 +15,21 @@ UTRA is supported by a strong network of educational and professional institutio
 [![eckertech](http://www.utra.ca/Pictures/Sponsors/block/eckertech.jpg)](http://www.eckertech.com)
 [![Atmel](http://utra.ca/Pictures/Sponsors/block/atmel.jpg)](http://www.atmel.com)
 [![Dutchman](http://www.utra.ca/Pictures/Sponsors/block/dutchman.jpg)](http://www.dutchman.jpg)
-[![NovAtel](http://www.utra.ca/Pictures/Sponsors/block/novatel_COL.gif)](http://www.novatel.com)
+<a href="http://www.novatel.com"><img style="height:50px;" alt="NovAtel" src="http://www.utra.ca/Pictures/Sponsors/block/novatel_COL.gif"></a>
 [![Mechanical and Industrial Engineering at the University of Toronto](http://www.utra.ca/Pictures/Sponsors/block/mie.jpg)](http://www.mie.utoronto.ca)
-[![Skule](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")](http://arkadyark.me)
-[![University of Toronto Faculty of Applied Science and Engineering](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")](http://arkadyark.me)
-[![Tsubaki](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")](http://arkadyark.me)
-[![UTIAS](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")](http://arkadyark.me)
-[![Timbren](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")](http://arkadyark.me)
-[![Carefree Tire](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")](http://arkadyark.me)
-[![Ion Link](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")](http://arkadyark.me)
-[![Pololu Robotics & Electronics](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")](http://arkadyark.me)
-[![UTSU](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")](http://arkadyark.me)
-[![The Edward S. Rodgers Department of Electrical and Computer Engineering](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")](http://arkadyark.me)
-[![Digi-Key](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")](http://arkadyark.me)
-[![Crosslink Technology Inc.](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")](http://arkadyark.me)
+[![Skule](http://www.utra.ca/Pictures/Sponsors/block/engsoc.jpg)](http://engsoc.skule.ca)
+[![University of Toronto Faculty of Applied Science and Engineering](http://utra.ca/Pictures/Sponsors/block/UTengineering.jpg)](http://engineering.utoronto.ca)
+[![Tsubaki](http://utra.ca/Pictures/Sponsors/block/Tsubaki-Logo.jpg)](http://tsubaki.ca)
+[![UTIAS](http://utra.ca/Pictures/Sponsors/block/UTIAS.jpg)](http://www.utias.utoronto.ca)
+[![Timbren](http://utra.ca/Pictures/Sponsors/block/timbren-logo.gif)](http://www.timbren.com)
+[![Carefree Tire](http://utra.ca/Pictures/Sponsors/block/carefreetire.jpg)](http://www.carefreetire.com)
+[![Ion Link](http://utra.ca/Pictures/Sponsors/block/ionlink.jpg)](http://www.ionlink.com)
+[![Pololu Robotics & Electronics](http://utra.ca/Pictures/Sponsors/block/pololu.jpg)](http://www.pololu.com)
+[![UTSU](http://utra.ca/Pictures/Sponsors/block/UTSU.jpg)](http://www.utsu.ca)
+[![The Edward S. Rodgers Department of Electrical and Computer Engineering](http://utra.ca/Pictures/Sponsors/block/ece13.jpg)](http://www.ece.utoronto.ca)
+[![Digi-Key](http://utra.ca/Pictures/Sponsors/block/dk.jpg)](http://www.digikey.com)
+<a href="http://www.crosslinktech.com"><img style="height:70px;" alt="Crosslink Technology Inc." src="http://www.utra.ca/Pictures/ART/2013/crosslink.png"/></a> 
+
+
 
 If you're interested in sponsoring us, contact us.

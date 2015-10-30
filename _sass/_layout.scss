@@ -2,7 +2,6 @@
  * Site header
  */
 .site-header {
-    border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
 
@@ -35,7 +34,7 @@
     .submenu {
       max-height : 0;
       overflow: hidden;
-      transition : max-height 0.2s ease;
+      transition : all 0.2s ease;
       position : absolute;
       margin-left : 0;
     }
@@ -44,10 +43,15 @@
       list-style : none;
       display : inline-block;
       padding : 0 10px;
+      cursor : pointer;
 
       &:hover {
         .submenu {
           max-height : 400px;
+          border : solid thin;
+          border-top : 0;
+          padding : 0 10px;
+          background-color: #fefefe;
         }
       }
     }
@@ -279,10 +283,12 @@ $team-circle-diameter: 200px;
     width : $team-circle-diameter;
     height : $team-circle-diameter;
     line-height : $team-circle-diameter;
-    margin : 0 10px;
+    margin : 0 $team-circle-diameter*0.05;
     border-radius : 50%;
     background-color : lightgrey;
     font-size : 30px;
+    position : relative;
+    overflow-y: hidden;
 
     &.art {
       background-image: url("http://lorempixel.com/200/200/cats/1");
@@ -304,11 +310,6 @@ $team-circle-diameter: 200px;
       background-image: url("http://lorempixel.com/200/200/cats/5");
     }
 
-    a {
-      position : relative;
-      overflow-y: hidden;
-    }
-
     .team-title {
       width : $team-circle-diameter;
       height : $team-circle-diameter;
@@ -318,7 +319,7 @@ $team-circle-diameter: 200px;
       top : 0;
       background : rgba(1,1,1,0.3);
       color : #fdfdfd;
-      transition : top linear 0.2s;
+      transition : top ease-out 0.2s;
     }
 
     &:hover {
