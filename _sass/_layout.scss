@@ -268,17 +268,63 @@
   margin-bottom : 50px;
 }
 
+$team-circle-diameter: 200px;
+
 .team-row {
   text-align: center;
 
   .team-box {
     display : inline-block;
     text-align : center;
-    width : 200px;
-    line-height : 200px;
+    width : $team-circle-diameter;
+    height : $team-circle-diameter;
+    line-height : $team-circle-diameter;
     margin : 0 10px;
     border-radius : 50%;
     background-color : lightgrey;
     font-size : 30px;
+
+    &.art {
+      background-image: url("http://lorempixel.com/200/200/cats/1");
+    }
+
+    &.combat {
+      background-image: url("http://lorempixel.com/200/200/cats/2");
+    }
+
+    &.three-d-p {
+      background-image: url("http://lorempixel.com/200/200/cats/3");
+    }
+
+    &.sumo {
+      background-image: url("http://lorempixel.com/200/200/cats/4");
+    }
+
+    &.topsecret {
+      background-image: url("http://lorempixel.com/200/200/cats/5");
+    }
+
+    a {
+      position : relative;
+      overflow-y: hidden;
+    }
+
+    .team-title {
+      width : $team-circle-diameter;
+      height : $team-circle-diameter;
+      border-radius : 50%;
+      position : absolute;
+      left : 0;
+      top : 0;
+      background : rgba(1,1,1,0.3);
+      color : #fdfdfd;
+      transition : top linear 0.2s;
+    }
+
+    &:hover {
+      .team-title {
+        top : -$team-circle-diameter;
+      }
+    }
   }
 }
