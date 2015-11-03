@@ -37,19 +37,21 @@ A robot is only as good as its sensors. ART buys a few high-end sensors and shar
 ![Da Boss](http://utra.ca/Pictures/ART/art1.JPG)
 
 Name: Da Boss
+
 Class: Autonomous Rover
 
-**Sensors:** Camera, Laser Range Finder (LRF), Global Positioning System (GPS)
+Sensors: Camera, Laser Range Finder (LRF), Global Positioning System (GPS)
 
-**Chassis:** Traxxas Truck equipped with Remote Control
-**Suspension:** 8-Spring Hydraulics Shocks
+Chassis: Traxxas Truck equipped with Remote Control
 
-**Emergency Stop:** Manual and Wireless
+Suspension: 8-Spring Hydraulics Shocks
 
+Emergency Stop: Manual and Wireless
 
+**Autonomous Rover Competitions**
 
-Autonomous Rover Competitions
+-RRTrack
 
-RRTrack          RRHill
+-RRHill
 
 ART spends half of its time developing modular components that are competition-independent, and the other half on a specific robot meant for a specific competition. Some of the robotics competitions that we have participated in the past include: RoboGames – Robomagellan, Unmanned Ground Vehicle Competition and Robot Racing.

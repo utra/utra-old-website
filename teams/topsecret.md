@@ -6,5 +6,5 @@ title: Top Secret
 inMenu: false
 ---
 
-The Top Secret team works on projects that are 'out there'. We're currently in
+Top Secret is UTRA's newest team. We work on projects that are more 'out there', and we're currently in
 the process of working on an autonomous beer pong playing robot.

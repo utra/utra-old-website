@@ -19,41 +19,51 @@ A combat robot is designed and built with the purpose of destroying and disablin
 
 ## Combot Robot Profiles:
 
-#### General
+**General**
 
 Name: Yellow Mouse
+
 Weight Class: Lightweight (60 lbs)
+
 Status: Active
 
-#### Mobility System
+**Mobility System**
 
 Type: 2 Wheel Differential Drive (Tank-Styled)
+
 Motors: Dual 02446 Motors from National Power Chair Robotics (NPC)
+
 Wheels: 6 inch - Rubber
 
-#### Radio System
+**Radio System**
 
 Transmitter: Spektrum DX6 with Modified Gimbals
+
 Receiver: AR610
 
-#### Power Pack
+**Power Pack**
 
 Type: Rechargeable Electric
+
 Cell Type: Lithium Polymer (LiPO)
+
 Voltage: 22.2 Volts
+
 Capacity: 6.8 Amp-Hours
 
-#### Power Converters
+**Power Converters**
 
 Type: Dual Talon SR speed controllers
 
-#### Armour
+**Armour**
 
 Type: One-piece Welded Steel
+
 Steel Type: A1008 Cold rolled steel
+
 Access Panels: Lexan
 
-#### Attack Features
+**Attack Features**
 
 1. Low-profile wedge
 2. Anti-Wedge Scraper Blade
@@ -61,74 +71,110 @@ Access Panels: Lexan
 
 ![tsainspected](http://www.utra.ca/Pictures/Combat/TSA_Inspected_2011.jpg)
 
-#### General
+**General**
+
 Name: TSA Inspected
+
 Weight Class: Middleweight (120 lbs)
+
 Status: Active  
 
-#### Mobility System
+**Mobility System**
+
 Type: 2 Wheel Differential Drive (Tank-Styled)
+
 Motors: Dual T64 Motors from National Power Chair Robotics (NPC)
+
 Wheels: Flat-Proof, Solid Foam
 
-#### Radio System
+**Radio System**
+
 Transmitter: Spektrum DX6 with Modified Gimbals
+
 Receiver: BR6000
 
-#### Power Pack
+**Power Pack**
+
 Type: Rechargeable Electric
+
 Cell Type: Lithium Iron Phosphate (LiFePO4) from A123 Systems
+
 Voltage: 33.0 Volts
+
 Capacity: 9.6 Amp-Hours
 
-#### Power Converters
+**Power Converters**
+
 Type: Dual 36V Victor 36HV from IFI Robotics
 
-#### Armour
+**Armour**
+
 Type: One-piece Welded Steel
+
 Steel Type: HS 500 donated by High Strength Plates and Profiles
+
 Access Panels: Lexan
 
-#### Attack Features
+**Attack Features**
 1. High-Centering Wedge
 2. Anti-Wedge Scraper Blade
 3. Dual Bolt-on Hooks (Red Horns)
 
 ![kludge](http://www.utra.ca/Pictures/Combat/Kludge_2011.JPG)
 
-#### General
+**General**
+
 Name: Kludge
+
 Weight Class: Featherweight (30 lbs)
+
 Status: Retired in 2010
 
-#### Mobility System
+**Mobility System**
+
 Type: 4 Wheel Differential Drive (Tank-styled)
+
 Motors: Dual Bosch Motors with Planetary Gearboxes (last stage removed)
+
 Wheels: Plastic Wheel with Thermoplastic Rubber Tread
 
-#### Weapon System
+**Weapon System**
+
 Type: Vertical Spinning Drum
+
 Motor: 24V DeWatt Hammer Drill Motor
 
-#### Radio System
+**Radio System**
+
 Transmitter: Spektrum DX6 with Modified Gimbals
+
 Receiver: BR6000
 
-#### Power Pack
+**Power Pack**
+
 Type: Rechargeable
+
 Cell Type: Nickel Metal Hydride (NiMH)
+
 Voltage: 28.8 Volts
+
 Capacity: 4.8 Amp-Hours
 
-#### Power Converters
+**Power Converters**
+
 Dual 12V Victor 884 from IFI Robotics (Drive)
+
 Single 24V Victor 883 from IFI Robotics (Weapon)
 
-#### Armour
+**Armour**
+
 Type: Bolted Aluminum
+
 Aluminum Type: General Purpose
+
 Access Panels: Lexan
 
-#### Attack Features
+**Attack Features**
+
 1. Vertical Spinning Drum
 2. Anti-Wedge Side Skirts
