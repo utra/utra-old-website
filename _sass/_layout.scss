@@ -272,7 +272,7 @@
   margin-bottom : 50px;
 }
 
-$team-circle-diameter: 200px;
+$team-circle-diameter: 220px;
 
 .team-row {
   text-align: center;
@@ -291,23 +291,23 @@ $team-circle-diameter: 200px;
     overflow-y: hidden;
 
     &.art {
-      background-image: url("http://lorempixel.com/200/200/cats/1");
+      background-image: url("/resources/art.png");
     }
 
     &.combat {
-      background-image: url("http://lorempixel.com/200/200/cats/2");
+      background-image: url("/resources/combat.jpg");
     }
 
     &.three-d-p {
-      background-image: url("http://lorempixel.com/200/200/cats/3");
+      background-image: url("/resources/3dp.jpg");
     }
 
     &.sumo {
-      background-image: url("http://lorempixel.com/200/200/cats/4");
+      background-image: url("/resources/sumo.jpg");
     }
 
     &.topsecret {
-      background-image: url("http://lorempixel.com/200/200/cats/5");
+      background-image: url("/resources/topsecret.jpg");
     }
 
     .team-title {
