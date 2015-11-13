@@ -1,0 +1,8 @@
+---
+layout: post
+title: November Robonar Series 1 - Conceptualizing a Robot
+date: 2015-11-05
+categories: events
+---
+
+Hosted by Adam Chan

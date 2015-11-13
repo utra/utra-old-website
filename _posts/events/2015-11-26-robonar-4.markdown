@@ -1,0 +1,9 @@
+---
+layout: post
+title: November Robonar Series 4 - Working with Chassis Materials
+date: 2015-11-26
+categories: events
+---
+
+BA1180
+Hosted by Adam Chan & Andrew Romano

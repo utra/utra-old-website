@@ -1,0 +1,10 @@
+---
+layout: post
+title: November Robonar Series 2 - General SolidWorksing Skills
+date: 2015-11-12
+categories: events
+---
+
+We will be discussing the importance of solid modeling, giving you guys some basic demonstrations with SolidWorks. If you have your laptop on you, feel free to bring it with you, we can show you how to remote desktop to use Solidworks on your computer!
+Also, if you're interested in 3D Printing, it is super important to get some knowhow on solid modeling.
+See you guys at 12PM in BA2185!
