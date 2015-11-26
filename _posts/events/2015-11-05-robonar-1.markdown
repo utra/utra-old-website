@@ -1,7 +1,8 @@
 ---
 layout: post
 title: November Robonar Series 1 - Conceptualizing a Robot
-date: 2015-11-05
+date: 2015-11-05 11:00:00 -0500
+endtime: 12:00:00 -0500
 categories: events
 ---
 

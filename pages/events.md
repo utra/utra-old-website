@@ -15,11 +15,12 @@ We have events all the time blahblah hello the quick brown fox jumps over the la
           {% capture posttime %}{{post.date | date: '%s'}}{% endcapture %}
           {% if posttime > nowunix %}
           <li>
-              <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
               <h2>
                   <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
               </h2>
+              <span class="post-meta">{{ post.date | date: "%B %-d, %Y" }}
+              from {{ post.date | date: "%H:%M%p"}}
+              to {{ post.endtime | date: "%H:%M%p"}}</span>
           </li>
           {% endif %}
         {% endif %}
@@ -32,12 +33,13 @@ We have events all the time blahblah hello the quick brown fox jumps over the la
         {% if post.category == events %}
           {% capture posttime %}{{post.date | date: '%s'}}{% endcapture %}
           {% if posttime <= nowunix %}
-          <li>
-              <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
               <h2>
                   <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
               </h2>
+          <li>
+              <span class="post-meta">{{ post.date | date: "%B %-d, %Y" }}
+              from {{ post.date | date: "%H:%M%p"}}
+              to {{ post.endtime | date: "%H:%M%p"}}</span>
           </li>
           {% endif %}
         {% endif %}
