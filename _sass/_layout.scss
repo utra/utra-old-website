@@ -48,8 +48,9 @@
       &:hover {
         .submenu {
           max-height : 400px;
-          border : solid thin;
+          border: 1px solid $grey-color-light;
           border-top : 0;
+          border-radius: 0 0 5px 5px;
           padding : 0 10px;
           background-color: #fefefe;
         }
@@ -263,7 +264,7 @@
 .main-header {
   text-align : center;
   h1 {
-    font-size : 72px;
+    font-size : 64px;
   }
 }
 

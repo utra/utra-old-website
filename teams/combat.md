@@ -6,7 +6,8 @@ title: Combat
 inMenu: false
 ---
 
-**Regular Meetings:** 2:00 ~ 5:00 PM on Saturday at EA106, We won't have a meeting in October due to all the midterms we have.
+**Regular Meetings:** 2:00 ~ 5:00 PM on Saturday at EA106.
+
 Fb group page: https://www.facebook.com/groups/280385735413001/
 
 A combat robot is designed and built with the purpose of destroying and disabling the competitor robot. It is a remote-controlled robot and categorized into different weight classes, from less than a pound to two hundred plus pounds. The robot is usually designed with some method of damaging or disabling its opponent, and often built with weapons on it. UTRA has been building the 120 pound combat robot and competing at RoboGames, which is known as the largest competition in the world.
