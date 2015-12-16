@@ -2,14 +2,13 @@
 layout: team
 permalink: /teams/3dp/index.html
 name: 3dp
-title: 3-D Printing
+title: 3D Printing
 inMenu: false
 ---
 
-Welcome to the 3D Printing team! If you would like to get involved, please come out to one of our meetings. We meet every Tuesday from 7 PM - 9 PM in EA106 (the UTRA lab).
+**Regular Meetings:** Every Tuesday from 7PM to 9PM in the UTRA Lab (EA106)
 
-For more details check out our facebook page @ https://www.facebook.com/groups/566859666747257/
-Any questions? You can also shoot us a message at 3dp@utra.ca
+**Facebook page:** [https://www.facebook.com/groups/566859666747257/](https://www.facebook.com/groups/566859666747257/)
 
 ![Mini Kossel 3D Printer Full DIY Package](http://ep.yimg.com/ay/yhst-136641646054229/mini-kossel-full-diy-package-everything-you-need-in-one-box-9.gif)
 

@@ -2,7 +2,7 @@
 layout: team
 permalink: /teams/art/index.html
 name: ART
-title: ART (Autonomous Rover Team)
+title: Autonomous Rover Team
 inMenu: false
 ---
 

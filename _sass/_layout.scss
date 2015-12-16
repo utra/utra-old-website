@@ -4,6 +4,7 @@
 .site-header {
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
+    background-color: #F6F6F6;
 
     // Positioning context for the mobile navigation icon
     position: relative;
@@ -37,6 +38,7 @@
       transition : all 0.2s ease;
       position : absolute;
       margin-left : 0;
+      background-color: #f6f6f6;
     }
 
     .navbar-item {
@@ -52,7 +54,6 @@
           border-top : 0;
           border-radius: 0 0 5px 5px;
           padding : 0 10px;
-          background-color: #fefefe;
         }
       }
     }
@@ -227,6 +228,7 @@
     font-size: 48px;
     letter-spacing: -1px;
     line-height: 1;
+    text-transform: lowercase;
 
     @include media-query($on-laptop) {
         font-size: 36px;

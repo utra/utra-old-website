@@ -8,7 +8,7 @@ inMenu: true
 In addition to the work that our subteams do, we also host talks, workshops, and more throughout the year.
 These can be a great way to dip your toes into UTRA if you aren't sure whether or not to commit to joining a team.
 
-## Upcoming events
+## upcoming events
 {% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
 <ul class="post-list events-list">
     {% assign event_count = 0 %}
@@ -33,7 +33,7 @@ These can be a great way to dip your toes into UTRA if you aren't sure whether o
     {% endif %}
 </ul>
 
-## Past events
+## past events
 <ul class="post-list events-list">
     {% for post in site.posts %}
         {% if post.category == events %}

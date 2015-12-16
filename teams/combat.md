@@ -8,7 +8,7 @@ inMenu: false
 
 **Regular Meetings:** 2:00 ~ 5:00 PM on Saturday at EA106.
 
-Fb group page: https://www.facebook.com/groups/280385735413001/
+**Facebook page:** [https://www.facebook.com/groups/280385735413001/](https://www.facebook.com/groups/280385735413001/)
 
 A combat robot is designed and built with the purpose of destroying and disabling the competitor robot. It is a remote-controlled robot and categorized into different weight classes, from less than a pound to two hundred plus pounds. The robot is usually designed with some method of damaging or disabling its opponent, and often built with weapons on it. UTRA has been building the 120 pound combat robot and competing at RoboGames, which is known as the largest competition in the world.
 
@@ -17,12 +17,11 @@ A combat robot is designed and built with the purpose of destroying and disablin
 *UTRA's TSA Inspected vs Touro from RoboGames 2011*
 
 
+# Combat Robot Profiles
 
-## Combot Robot Profiles:
+## Yellow Mouse
 
 **General**
-
-Name: Yellow Mouse
 
 Weight Class: Lightweight (60 lbs)
 
@@ -70,11 +69,13 @@ Access Panels: Lexan
 2. Anti-Wedge Scraper Blade
 3. Single Bolt-on Hook (Not shown in picture)
 
+--------
+
+## TSA Inspected
+
 ![tsainspected](http://www.utra.ca/Pictures/Combat/TSA_Inspected_2011.jpg)
 
 **General**
-
-Name: TSA Inspected
 
 Weight Class: Middleweight (120 lbs)
 
@@ -121,11 +122,13 @@ Access Panels: Lexan
 2. Anti-Wedge Scraper Blade
 3. Dual Bolt-on Hooks (Red Horns)
 
+--------
+
+## Kludge
+
 ![kludge](http://www.utra.ca/Pictures/Combat/Kludge_2011.JPG)
 
 **General**
-
-Name: Kludge
 
 Weight Class: Featherweight (30 lbs)
 

@@ -28,8 +28,8 @@ UTRA is supported by a strong network of educational and professional institutio
 [![UTSU](http://utra.ca/Pictures/Sponsors/block/UTSU.jpg)](http://www.utsu.ca)
 [![The Edward S. Rodgers Department of Electrical and Computer Engineering](http://utra.ca/Pictures/Sponsors/block/ece13.jpg)](http://www.ece.utoronto.ca)
 [![Digi-Key](http://utra.ca/Pictures/Sponsors/block/dk.jpg)](http://www.digikey.com)
-<a href="http://www.crosslinktech.com"><img style="height:70px;" alt="Crosslink Technology Inc." src="http://www.utra.ca/Pictures/ART/2013/crosslink.png"/></a> 
+<a href="http://www.crosslinktech.com"><img style="height:70px;" alt="Crosslink Technology Inc." src="http://www.utra.ca/Pictures/ART/2013/crosslink.png"/></a>
 
 
 
-If you're interested in sponsoring us, contact us.
+If you're interested in sponsoring us, [contact us](mailto:utra@utra.ca).
