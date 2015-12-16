@@ -229,6 +229,7 @@
     letter-spacing: -1px;
     line-height: 1;
     text-transform: lowercase;
+    margin-bottom: 30px;
 
     @include media-query($on-laptop) {
         font-size: 36px;
