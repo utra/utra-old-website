@@ -10,16 +10,17 @@ inMenu: false
 
 **Facebook page:** [https://www.facebook.com/groups/280385735413001/](https://www.facebook.com/groups/280385735413001/)
 
+<img style="float : none;" src="/Pictures/Combat/TSA_Inspected_vs_Touro.jpg" alt="TSA vs Touro">
+
 A combat robot is designed and built with the purpose of destroying and disabling the competitor robot. It is a remote-controlled robot and categorized into different weight classes, from less than a pound to two hundred plus pounds. The robot is usually designed with some method of damaging or disabling its opponent, and often built with weapons on it. UTRA has been building the 120 pound combat robot and competing at RoboGames, which is known as the largest competition in the world.
 
-![tsavstouro](http://www.utra.ca/Pictures/Combat/RoboGames2011/TSA_Inspected_vs_Touro.jpg)
-
 *UTRA's TSA Inspected vs Touro from RoboGames 2011*
-
 
 # Combat Robot Profiles
 
 ## Yellow Mouse
+
+![Yellow Mouse](/Pictures/Combat/yellowmouse.jpg)
 
 **General**
 
