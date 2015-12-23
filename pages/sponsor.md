@@ -1,11 +1,13 @@
 ---
-layout: page
+layout: sponsor
 title: Sponsors
 permalink: /sponsors/
 inMenu: true
 ---
 
 UTRA is supported by a strong network of educational and professional institutions, and individuals within the University of Toronto, but it also relies heavily on the generous corporate donors that make its work possible. In addition to immeasurable benefits gained by students, corporate sponsors are given the opportunity to collaborate with one of the leading universities in world, and have its title represented within the community and internationally.
+
+**Our amazing sponsors:**
 
 [![Skule Alumni](http://www.utra.ca/Pictures/Sponsors/block/skuleAlumni.jpg)](http://alumni.utoronto.ca)
 [![DS Solidworks](http://www.utra.ca/Pictures/Sponsors/block/solidworks.jpg)](http://www.solidworks.com)

@@ -30,6 +30,14 @@ We do our low-level (motor control, analog sensor interface) control on Atmel AV
 
 A robot is only as good as its sensors. ART buys a few high-end sensors and shares them across robot platforms. A large portion of our budget goes to these sensors, so we need people that know them inside and out. What they’re capable of, how to communicate with them, how to protect them, and which new sensors are required!
 
+**Autonomous Rover Competitions**
+
+-RRTrack
+
+-RRHill
+
+ART spends half of its time developing modular components that are competition-independent, and the other half on a specific robot meant for a specific competition. Some of the robotics competitions that we have participated in the past include: RoboGames – Robomagellan, Unmanned Ground Vehicle Competition and Robot Racing.
+
 ## Autonomous Rover Profile: Da Boss
 
 ![Da Boss](http://utra.ca/Pictures/ART/art1.JPG)
@@ -45,11 +53,3 @@ Chassis: Traxxas Truck equipped with Remote Control
 Suspension: 8-Spring Hydraulics Shocks
 
 Emergency Stop: Manual and Wireless
-
-**Autonomous Rover Competitions**
-
--RRTrack
-
--RRHill
-
-ART spends half of its time developing modular components that are competition-independent, and the other half on a specific robot meant for a specific competition. Some of the robotics competitions that we have participated in the past include: RoboGames – Robomagellan, Unmanned Ground Vehicle Competition and Robot Racing.
