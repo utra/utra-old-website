@@ -12,21 +12,19 @@ These can be a great way to dip your toes into UTRA if you aren't sure whether o
 {% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
 <ul class="post-list events-list">
     {% assign event_count = 0 %}
-    {% for post in site.posts %}
-        {% if post.category == events %}
-          {% capture posttime %}{{post.date | date: '%s'}}{% endcapture %}
-          {% if posttime > nowunix %}
-          {% increment event_count %}
-          <li>
-              <h3>
-                  <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-              </h3>
-              <span class="post-meta">{{ post.date | date: "%B %-d, %Y" }}
-              from {{ post.date | date: "%H:%M%p"}}
-              to {{ post.endtime | date: "%H:%M%p"}}</span>
-          </li>
-          {% endif %}
-        {% endif %}
+    {% for post in site.categories.events %}
+      {% capture posttime %}{{post.date | date: '%s'}}{% endcapture %}
+      {% if posttime > nowunix %}
+      {% increment event_count %}
+      <li>
+          <h3>
+              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          </h3>
+          <span class="post-meta">{{ post.date | date: "%B %-d, %Y" }}
+          from {{ post.date | date: "%H:%M%p"}}
+          to {{ post.endtime | date: "%H:%M%p"}}</span>
+      </li>
+      {% endif %}
     {% endfor %}
     {% if event_count == 0 %}
     <p>No upcoming events.</p>
@@ -35,19 +33,21 @@ These can be a great way to dip your toes into UTRA if you aren't sure whether o
 
 ## past events
 <ul class="post-list events-list">
-    {% for post in site.posts %}
-        {% if post.category == events %}
-          {% capture posttime %}{{post.date | date: '%s'}}{% endcapture %}
-          {% if posttime <= nowunix %}
-              <h3>
-                  <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-              </h3>
-          <li>
-              <span class="post-meta">{{ post.date | date: "%B %-d, %Y" }}
-              from {{ post.date | date: "%H:%M%p"}}
-              to {{ post.endtime | date: "%H:%M%p"}}</span>
-          </li>
-          {% endif %}
-        {% endif %}
+    {% assign past_event_count = 0 %}
+    {% for post in site.categories.events %}
+      {% capture posttime %}{{post.date | date: '%s'}}{% endcapture %}
+      {% if posttime <= nowunix and past_event_count < 3 %}
+      {% assign past_event_count = past_event_count | plus:1 %}
+      <li>
+          <h3>
+              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          </h3>
+          <span class="post-meta">{{ post.date | date: "%B %-d, %Y" }}
+          from {{ post.date | date: "%H:%M%p"}}
+          to {{ post.endtime | date: "%H:%M%p"}}</span>
+      </li>
+      {% endif %}
     {% endfor %}
 </ul>
+
+[See all past events](/events/all-events)
