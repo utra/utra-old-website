@@ -216,8 +216,9 @@ $header-height : 66px;
 }
 
 .post-meta {
-    font-size: $small-font-size;
+    font-size: 1.1*$base-font-size;
     color: $grey-color;
+    margin-top: -30px; // Get it closer to the title
 }
 
 .post-link {

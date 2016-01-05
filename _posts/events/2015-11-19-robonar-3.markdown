@@ -6,6 +6,6 @@ endtime: 12:00:00 -0500
 categories: events
 ---
 
-BA 1130
+At this exciting Robonar you will get the opportunity to program an Arduino! Learn how to build basic circuits with a Microcontroller and then program it! You’ll experience a variety of sensors and pair up your logic to turn on some LEDs!
 
-Hosted by Adam Chan & Andrew Romano
+Hosted by Adam Chan & Andrew Romano.

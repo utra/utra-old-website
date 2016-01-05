@@ -6,4 +6,6 @@ endtime: 12:00:00 -0500
 categories: events
 ---
 
-Hosted by Adam Chan
+There are **so** many different types of robots. In this Robonar we will talk about the different types of techniques that robots employ to get around. From beasty tank treads to flight, we will talk about all of them and touch upon the basics on what it will take to build them.
+
+Hosted by Adam Chan.

@@ -6,6 +6,6 @@ endtime: 12:00:00 -0500
 categories: events
 ---
 
-BA1180
+Here you’ll get to hear about common materials that are used to design, prototype and build. After getting a grasp of the multitude of materials that exist, you’ll learn about the tools and equipment available to work with these materials! A great way to get you started on any of your own personal projects!
 
-Hosted by Adam Chan & Andrew Romano
+Hosted by Adam Chan & Andrew Romano.
