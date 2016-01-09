@@ -65,6 +65,7 @@ $header-height : 66px;
     .page-link {
         color: $text-color;
         line-height: $base-line-height;
+        display: inline-block;
 
         // Gaps between nav items, but not on the first one
         &:not(:first-child) {
