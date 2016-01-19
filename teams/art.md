@@ -40,7 +40,7 @@ ART spends half of its time developing modular components that are competition-i
 
 ## Autonomous Rover Profile: Da Boss
 
-![Da Boss](http://utra.ca/Pictures/ART/art1.JPG)
+![Da Boss](/Pictures/ART/art1.JPG)
 
 Name: Da Boss
 
