@@ -74,7 +74,7 @@ Access Panels: Lexan
 
 ## TSA Inspected
 
-![tsainspected](http://www.utra.ca/Pictures/Combat/TSA_Inspected_2011.jpg)
+![tsainspected](/Pictures/Combat/TSA_Inspected_2011.jpg)
 
 **General**
 
@@ -127,7 +127,7 @@ Access Panels: Lexan
 
 ## Kludge
 
-![kludge](http://www.utra.ca/Pictures/Combat/Kludge_2011.JPG)
+![kludge](/Pictures/Combat/Kludge_2011.JPG)
 
 **General**
 
