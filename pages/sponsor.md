@@ -13,7 +13,7 @@ UTRA is supported by a strong network of educational and professional institutio
 [![DS Solidworks](/Pictures/Sponsors/solidworks.jpg)](http://www.solidworks.com)
 [![MDA](/Pictures/Sponsors/mda_logo.jpg)](http://sm.mdacorporation.com)
 [![upverter](/Pictures/Sponsors/upverter_logo.png)](http://upverter.com)
-[![High Strength Plates & Profiles Inc.](http://www.utra.ca/Pictures/Sponsors/hspp.jpg)](http://www.highstrengthplates.com)
+[![High Strength Plates & Profiles Inc.](/Pictures/Sponsors/hspp.jpg)](http://www.highstrengthplates.com)
 [![eckertech](/Pictures/Sponsors/eckertech.jpg)](http://www.eckertech.com)
 [![Atmel](/Pictures/Sponsors/atmel.jpg)](http://www.atmel.com)
 [![Dutchman](/Pictures/Sponsors/dutchman.jpg)](http://www.dutchman.jpg)
