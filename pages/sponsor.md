@@ -21,7 +21,7 @@ UTRA is supported by a strong network of educational and professional institutio
 [![Mechanical and Industrial Engineering at the University of Toronto](/Pictures/Sponsors/mie.jpg)](http://www.mie.utoronto.ca)
 [![Skule](/Pictures/Sponsors/engsoc.jpg)](http://engsoc.skule.ca)
 [![University of Toronto Faculty of Applied Science and Engineering](/Pictures/Sponsors/UTengineering.jpg)](http://engineering.utoronto.ca)
-[![Tsubaki](/Sponsors/Tsubaki-Logo.jpg)](http://tsubaki.ca)
+[![Tsubaki](/Pictures/Sponsors/Tsubaki-Logo.jpg)](http://tsubaki.ca)
 [![UTIAS](/Pictures/Sponsors/UTIAS.jpg)](http://www.utias.utoronto.ca)
 [![Timbren](/Pictures/Sponsors/timbren-logo.gif)](http://www.timbren.com)
 [![Carefree Tire](/Pictures/Sponsors/carefreetire.jpg)](http://www.carefreetire.com)
