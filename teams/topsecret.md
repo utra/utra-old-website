@@ -6,7 +6,7 @@ title: Top Secret
 inMenu: false
 ---
 
-**Regular Meetings**: every Thursday at 7:00 pm in BA 2135
+**Regular Meetings**: every Monday at 7:00 pm in BA 2135
 
 The Top Secret Team is currently designing and building an autonomous robot capable of playing beer pong against humans. We are currently finishing up the design of our mechanical system, testing out sensors and circuitry, and planning for the construction of the main body. In a game of beer pong, the robot will sense the location of the cups using laser range finders, calculate the directions its body need to turn, and launch the ping pong ball into the cups using wheels mounted to DC motors.
 
