@@ -1,8 +1,8 @@
 ---
 layout: team
 permalink: /teams/soccer/index.html
-name: Sumo
-title: Sumo
+name: RoboSoccer
+title: RoboSoccer
 inMenu: false
 ---
 ##UTRA Soccer Team
