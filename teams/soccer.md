@@ -5,8 +5,6 @@ name: RoboSoccer
 title: RoboSoccer
 inMenu: false
 ---
-## UTRA Soccer Team
-
 We are an amateur soccer team at the University of Toronto making an attempt to compete in the 2018 RoboCup. If you are interested in joining our team. Please ensure that you understand that this is an advanced team.
 
 ### Skills Required for the Software teams:
