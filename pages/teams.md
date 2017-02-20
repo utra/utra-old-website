@@ -11,6 +11,8 @@ subtitles:
     url: "combat"
   - subtitle: "Sumo"
     url: "sumo"
+  - subtitle: "Soccer"
+    url: "soccer"
   - subtitle: "Top Secret"
     url: "shhh"
 inMenu: true
