@@ -6,16 +6,16 @@ title: 3D Printing
 inMenu: false
 ---
 
-**Regular Meetings:** Every Tuesday from 7PM to 9PM in the UTRA Lab (EA106)
+The **3D Printing** (3DP) team at UTRA is dedicated to designing and manufacturing modular and robust 3D printers. 3D printing technology transforms 3D CAD models into physical objects.
 
-**Facebook page:** [https://www.facebook.com/groups/566859666747257/](https://www.facebook.com/groups/566859666747257/)
+**Regular Meetings:** Every Monday from 7PM to 9PM in the UTRA Lab (EA106)
 
-![Mini Kossel 3D Printer Full DIY Package](http://ep.yimg.com/ay/yhst-136641646054229/mini-kossel-full-diy-package-everything-you-need-in-one-box-9.gif)
+**Join us** on [Facebook](https://www.facebook.com/groups/170063056765640/) or contact us via [email](mailto:3dp@utra.ca)!
 
-*The Mini Kossel*
+Having already designed a line up of miniature 3D printers from recycled components, the team intends on applying their learning to create a larger printer in the upcoming year. The 3D printing team additionally offers 3D printing services for the entire UTRA team, and the general UofT student population. The inclusion of 3D printed parts in the UTRA robot designs has enabled UTRA to accelerate the pace of our robot design and development strategy.
 
-The Mini Kossel is an experimental parametric delta robot 3D printer, whose design was based on a Rostock prototype. It is a Do-It-Yourself (DIY) 3D printer designed for low cost prototyping and modelling, capable of printing with various plastic materials. Since many parts of it are made from plastic and the printer can print those parts, it can be considered a self-replicating machine.
+![3D Printer Kit]({{ site.url }}/Pictures/3DP/3d_printer.JPG)
 
-3DP's ultimate goal is to get people acquainted with 3D printing so that it becomes as normal to them as any ordinary thing! We are seeking students interested in DIY 3D printing. No prior hardware or programming experience is required. As a member of the team you will gain hands-on experience working on a Mini Kossel, among other things. This is a great opportunity for people interested in building a 3D printer from scratch. You will acquire skills and knowledge to help you get started on building your own!
+Last year, the team assembled a working 3D printer kit. It is capable of printing PLA parts on its 120 x 180 mm bed.
 
-UTRA has previously built two models of RepRap, "Darwin" and "Mendel", and this year we are going to put together a Mini Kossel.
+New team members can expect to learn how to efficiently create CAD models for engineering projects, properly operate a 3D printer, and skillfully manufacture modular 3D printers.

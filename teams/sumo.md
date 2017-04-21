@@ -7,6 +7,8 @@ inMenu: false
 ---
 Interested in the robotics? Not sure where to start off? Well, the Sumo team might just be the team for you!! Working on Sumo bots allowed our members to gain hands-on experience and exposed them to the electrical, mechanical and software aspects of engineering design.
 
+Contact us via [email](mailto:sumo@utra.ca)!
+
 UTRA developed the sumo competition to introduce new students to the mechanical, electrical, and software components of robot design. Students make their own teams of 3 and are provided with a circuit design, sensors, electrical components and example code.
 
 The goal is to build an autonomous 10cm x 10cm robot with IR range finders to locate the opponent and light sensors to detect the edge of the ring. Two mini - sumo robots are placed in a black circular ring with a white border; the two robots try to push one another out of the ring, the last robot in the ring wins. Students use the circuit design to etch and solder their own circuit boards; they design the chassis in 3D CAD, then cut and bend the chassis from sheet metal; they write the software in C directly on the microcontroller.

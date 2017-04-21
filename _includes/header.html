@@ -18,7 +18,7 @@
           {% if page.inMenu %}
             <li class="navbar-item">
             {% if page.subtitles %}
-                <a class="page-link">{{page.title}}</a>
+                <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{page.title}}</a>
                 <ul class="submenu">
                   {% for subtitle in page.subtitles %}
                     <li class="submenu-item">

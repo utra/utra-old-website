@@ -34,4 +34,4 @@ UTRA is supported by a strong network of educational and professional institutio
 
 
 
-If you're interested in sponsoring us, [contact us](mailto:utra@utra.ca).
+If you're interested in sponsoring us, please [contact us](mailto:vppartnerships@utra.ca).
