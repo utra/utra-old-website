@@ -1,3 +1,10 @@
+body, html{
+    height:100%;
+    margin:0;
+    padding:0;
+}
+
+
 /**
  * Site header
  */
@@ -201,6 +208,10 @@ $header-height : 66px;
  */
 .page-content {
     padding: $spacing-unit 0;
+    min-height: -webkit-calc(100% - #{$header-height} -  2*#{$spacing-unit} - 2px);
+    background-image: url($baseurl + '/resources/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .page-heading {
@@ -294,6 +305,7 @@ $header-height : 66px;
 }
 
 .card {
+  background-color: rgba(255,255,255,0.7);
   box-shadow: 0 2px 18px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
   transition: 0.3s ease;
   &:hover {
