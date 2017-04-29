@@ -9,7 +9,7 @@ A nice thing about Jekyll is that all of the content on the pages is written in 
 To make your changes:
 
 1. Fork this repository
-2. Make your changes locally, either creating new Markdown files for events (in /pages/events), or modifying existing team pages (in /teams). If you want to preview your changes, [install jekyll](http://jekyllrb.com/docs/installation/), run 'jekyll serve' in the command line from the root of this folder, and navigate your browser to localhost:4000.
+2. Make your changes locally, either editing main site pages (in /pages/), or existing team pages (in /teams). If you want to preview your changes, [install jekyll](http://jekyllrb.com/docs/installation/), run 'jekyll serve' in the command line from the root of this folder, and navigate your browser to localhost:4000.
 3. Commit and push your changes to your local branch.
 4. Submit a pull request to here. The webmaster can accept your changes and they'll go live.
 
