@@ -12,7 +12,7 @@ UTRA is supported by a strong network of educational and professional institutio
 [![Skule Alumni](/Pictures/Sponsors/skuleAlumni.jpg)](http://alumni.utoronto.ca)
 [![DS Solidworks](/Pictures/Sponsors/solidworks.jpg)](http://www.solidworks.com)
 [![MDA](/Pictures/Sponsors/mda_logo.jpg)](http://sm.mdacorporation.com)
-[![upverter](/Pictures/Sponsors/upverter_logo.png)](http://upverter.com)
+<a href="http://www.altium.com/"><img style="height:50px;" alt="altium" src="/Pictures/Sponsors/altium.jpg"></a>
 [![High Strength Plates & Profiles Inc.](/Pictures/Sponsors/hspp.jpg)](http://www.highstrengthplates.com)
 [![eckertech](/Pictures/Sponsors/eckertech.jpg)](http://www.eckertech.com)
 [![Atmel](/Pictures/Sponsors/atmel.jpg)](http://www.atmel.com)
@@ -31,6 +31,8 @@ UTRA is supported by a strong network of educational and professional institutio
 [![The Edward S. Rodgers Department of Electrical and Computer Engineering](/Pictures/Sponsors/ece13.jpg)](http://www.ece.utoronto.ca)
 [![Digi-Key](/Pictures/Sponsors/dk.jpg)](http://www.digikey.com)
 <a href="http://www.crosslinktech.com"><img style="height:70px;" alt="Crosslink Technology Inc." src="/Pictures/Sponsors/crosslink.png"/></a>
+<a href="http://www.3mcanada.ca"><img style="height:50px;" alt="3M" src="/Pictures/Sponsors/3M-logo.png"></a>
+
 
 
 
