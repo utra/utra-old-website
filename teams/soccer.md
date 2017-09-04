@@ -50,15 +50,11 @@ Please note that you do not need all of these skills for the team, but our team 
 ### Team Links
 Please contact Jason at [soccer@utra.ca](mailto:soccer@utra.ca) for all access
 
-- [Facebook Group](https://www.facebook.com/groups/UTRASoccer/)
+- [Facebook Group](https://www.facebook.com/groups/universityoftorontorobosoccer/)
 - [Google Drive](https://drive.google.com/drive/folders/0B8OHQTLVTR6GTnlfRkFGZk5EQVU?usp=sharing)
-- [Slack](http://utrarobosoccer.slack.com) 
-- [Meeting Calender Subscription](https://calendar.google.com/calendar/ical/soccer%40utra.ca/public/basic.ics)
-- [Competition Rules (Child Size)](https://www.robocuphumanoid.org/materials/rules/) 
-- [Competition Information and Dates (Humanoid)](http://wiki.robocup.org/Humanoid_League)
-- [Competition Information and Dates (Simulation)](http://wiki.robocup.org/Soccer_Simulation_League)
-- [Project Planner](https://drive.google.com/drive/folders/0B8OHQTLVTR6GQ3dqamQxMkZrUmc)
-- [Shopping List](https://drive.google.com/drive/folders/0B8OHQTLVTR6GUnZOVXd6VC00UG8)
+- [Calender](https://calendar.google.com/calendar/ical/soccer%40utra.ca/public/basic.ics)
+- [Github](https://github.com/utra-robosoccer)
+
 
 ### Signing Up
 
