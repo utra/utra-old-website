@@ -66,4 +66,3 @@ Please note that you do not need all of these skills for the team, but our team 
 ### Application Form
 - [Position Descriptions](https://docs.google.com/document/d/1BRW8Yy9hYQix4jPiH-h9IGgB-WI3EY-ORngu0wuO0I4/edit#heading=h.psut0c1hptr)
 - [Application Form](https://docs.google.com/forms/d/e/1FAIpQLSfNVsrOJ_nnYgjDqINVgbXt_oHVTZMs3i8i2qSVGLBJYF-PVA/viewform) to be considered for the team.
-d for purchases and also put the information on our shopping list to keep track.
