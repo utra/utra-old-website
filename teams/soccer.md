@@ -13,6 +13,12 @@ We are an amateur soccer team at the University of Toronto making an attempt to 
 - [Calender](https://calendar.google.com/calendar/ical/soccer%40utra.ca/public/basic.ics)
 - [Github](https://github.com/utra-robosoccer)
 
+## Team Information
+Jason Wang - Software Lead
+Shahryar Rajabzadeh - Electrical Lead
+Nam Nyugen - Mechanical Lead
+Lukas Zhornyak - Control Lead
+
 ## Application
 Please take a look at the skill requirements below
 
@@ -58,6 +64,6 @@ Please note that you do not need all of these skills for the team, but our team 
 
 
 ### Application Form
-[Position Descriptions](https://docs.google.com/document/d/1BRW8Yy9hYQix4jPiH-h9IGgB-WI3EY-ORngu0wuO0I4/edit#heading=h.psut0c1hptr)
-[Application Form](https://docs.google.com/forms/d/e/1FAIpQLSfNVsrOJ_nnYgjDqINVgbXt_oHVTZMs3i8i2qSVGLBJYF-PVA/viewform) to be considered for the team.
+- [Position Descriptions](https://docs.google.com/document/d/1BRW8Yy9hYQix4jPiH-h9IGgB-WI3EY-ORngu0wuO0I4/edit#heading=h.psut0c1hptr)
+- [Application Form](https://docs.google.com/forms/d/e/1FAIpQLSfNVsrOJ_nnYgjDqINVgbXt_oHVTZMs3i8i2qSVGLBJYF-PVA/viewform) to be considered for the team.
 d for purchases and also put the information on our shopping list to keep track.
