@@ -15,8 +15,11 @@ We are an amateur soccer team at the University of Toronto making an attempt to 
 
 ## Team Information
 Jason Wang - Software Lead
+
 Shahryar Rajabzadeh - Electrical Lead
+
 Nam Nyugen - Mechanical Lead
+
 Lukas Zhornyak - Control Lead
 
 ## Application
