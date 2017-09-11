@@ -7,6 +7,10 @@ inMenu: false
 ---
 We are an amateur soccer team at the University of Toronto making an attempt to compete in the 2018 RoboCup. If you are interested in joining our team. Please see the join section
 
+# Application Form
+- [Position Descriptions](https://docs.google.com/document/d/1BRW8Yy9hYQix4jPiH-h9IGgB-WI3EY-ORngu0wuO0I4/edit#heading=h.psut0c1hptr)
+- [Application Form](https://docs.google.com/forms/d/e/1FAIpQLSfNVsrOJ_nnYgjDqINVgbXt_oHVTZMs3i8i2qSVGLBJYF-PVA/viewform) to be considered for the team.
+
 ## Team Links
 - [Facebook Group](https://www.facebook.com/groups/universityoftorontorobosoccer/)
 - [Google Drive](https://drive.google.com/drive/folders/0B8OHQTLVTR6GTnlfRkFGZk5EQVU?usp=sharing)
@@ -65,7 +69,3 @@ If you do not have any of these requirements, please go through the links below 
 
 Please note that you do not need all of these skills for the team, but our team will not be teaching you these fundamental skills (except for an occasional ROS tutorial). Please learn on your own.
 
-
-### Application Form
-- [Position Descriptions](https://docs.google.com/document/d/1BRW8Yy9hYQix4jPiH-h9IGgB-WI3EY-ORngu0wuO0I4/edit#heading=h.psut0c1hptr)
-- [Application Form](https://docs.google.com/forms/d/e/1FAIpQLSfNVsrOJ_nnYgjDqINVgbXt_oHVTZMs3i8i2qSVGLBJYF-PVA/viewform) to be considered for the team.
