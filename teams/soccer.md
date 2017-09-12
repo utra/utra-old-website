@@ -8,7 +8,7 @@ inMenu: false
 We are an amateur soccer team at the University of Toronto making an attempt to compete in the 2018 RoboCup. If you are interested in joining our team. Please see the join section
 
 # Application Form
-- [Position Descriptions](https://docs.google.com/document/d/1BRW8Yy9hYQix4jPiH-h9IGgB-WI3EY-ORngu0wuO0I4/edit#heading=h.psut0c1hptr)
+- [Position Descriptions](https://drive.google.com/file/d/0BzCH_tLbVd7qXzRLdmJIM2h5cUU/view)
 - [Application Form](https://docs.google.com/forms/d/e/1FAIpQLSfNVsrOJ_nnYgjDqINVgbXt_oHVTZMs3i8i2qSVGLBJYF-PVA/viewform) to be considered for the team.
 - Application are due this Wednesday, September 13th, 2017 at 11:59pm midnight
 
