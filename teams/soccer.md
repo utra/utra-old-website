@@ -1,6 +1,6 @@
 ---
 layout: team
-permalink: /teams/soccer/index.html
+permalink: http://www.utrahumanoid.ca
 name: RoboSoccer
 title: RoboSoccer
 inMenu: false
