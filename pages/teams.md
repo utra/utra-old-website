@@ -34,7 +34,7 @@ inMenu: true
     <a href="/teams/sumo" class="team-box sumo">
         <div class="team-title">Sumo</div>
     </a>
-    <a href="/teams/soccer" class="team-box soccer">
+    <a href="http://utrahumanoid.ca" class="team-box soccer">
         <div class="team-title">Soccer</div>
     </a>
     <a href="/teams/shhh" class="team-box topsecret">
