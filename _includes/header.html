@@ -22,9 +22,15 @@
                 <ul class="submenu">
                   {% for subtitle in page.subtitles %}
                     <li class="submenu-item">
+                      {% if subtitle.url == "soccer" %}
+                      <a class="page-link" href="http://www.utrahumanoid.ca">
+                        {{ subtitle.subtitle }}
+                      </a>
+                      {% else %}
                       <a class="page-link" href="{{site.baseurl}}{{page.url}}{{ subtitle.url }}">
                         {{ subtitle.subtitle }}
                       </a>
+                      {% endif %}
                     </li>
                   {% endfor %}
                 </ul>
