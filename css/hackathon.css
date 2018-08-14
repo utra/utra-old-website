@@ -1,0 +1,927 @@
+.header {
+  position: fixed;
+  z-index: 9999999;
+  top: 0;
+  width: 100vw; }
+  .header.header--noScroll .mainMenu {
+    background-color: rgba(69, 82, 107, 0.8); }
+
+@media only screen and (max-width: 1049px) {
+  .header .logo .logo__desktop {
+    display: none; }
+
+  .mainMenu .mainMenu__mobileNav {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    right: 5vw;
+    height: 100%;
+    z-index: 1; }
+    .mainMenu .mainMenu__mobileNav .mainMenu__mobileNavIcon {
+      display: flex;
+      align-items: center;
+      color: #DADADA;
+      font-size: 40px;
+      transition: color 0.2s; }
+      .mainMenu .mainMenu__mobileNav .mainMenu__mobileNavIcon:hover {
+        color: white; }
+    .mainMenu .mainMenu__mobileNav .mainMenu__mobileNavIcon--noDisplay {
+      display: none; }
+  .mainMenu .mainMenu__list {
+    background-color: #45526b;
+    width: 100vw;
+    height: 100vh;
+    top: -100vh;
+    transition: top 0.3s ease-out;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+    .mainMenu .mainMenu__list.mainMenu__list--active {
+      top: 0; }
+  .mainMenu .mainMenu__menuItem {
+    margin: 5px; }
+    .mainMenu .mainMenu__menuItem:after {
+      content: '';
+      position: relative;
+      left: 50%;
+      top: 2px;
+      transform: translateX(-50%);
+      width: 70%;
+      background-color: white;
+      opacity: 0;
+      display: block;
+      height: 2px;
+      transition: opacity 0.2s, top 0.2s; }
+    .mainMenu .mainMenu__menuItem a {
+      text-decoration: none;
+      display: block;
+      text-align: center;
+      padding: 5px 15px 5px 15px;
+      color: #DADADA;
+      font-weight: bold;
+      font-size: 2.0em;
+      transition: color 0.2s; }
+      .mainMenu .mainMenu__menuItem a:hover {
+        color: white; }
+    .mainMenu .mainMenu__menuItem:hover:after {
+      content: '';
+      position: relative;
+      left: 50%;
+      top: 0px;
+      transform: translateX(-50%);
+      width: 70%;
+      background-color: white;
+      opacity: 1;
+      display: block;
+      height: 2px; }
+  .mainMenu.mainMenu--backgroundVisible {
+    background-color: rgba(69, 82, 107, 0.8); } }
+@media only screen and (min-width: 1050px) {
+  .header .mainMenu .mainMenu__mobileNav {
+    display: none; }
+
+  .header .logo .logo__mobile {
+    display: none; }
+
+  .header.header--aboutActive .mainMenu .mainMenu__menuItem.mainMenu__menuItem--about a {
+    color: white;
+    transition: none; }
+  .header.header--aboutActive .mainMenu .mainMenu__menuItem.mainMenu__menuItem--about:after {
+    content: '';
+    position: relative;
+    left: 50%;
+    top: 0px;
+    transform: translateX(-50%);
+    width: 70%;
+    background-color: white;
+    opacity: 1;
+    display: block;
+    height: 2px;
+    transition: none; }
+  .header.header--teamsActive .mainMenu .mainMenu__menuItem.mainMenu__menuItem--teams a {
+    color: white;
+    transition: none; }
+  .header.header--teamsActive .mainMenu .mainMenu__menuItem.mainMenu__menuItem--teams:after {
+    content: '';
+    position: relative;
+    left: 50%;
+    top: 0px;
+    transform: translateX(-50%);
+    width: 70%;
+    background-color: white;
+    opacity: 1;
+    display: block;
+    height: 2px;
+    transition: none; }
+  .header.header--eventsActive .mainMenu .mainMenu__menuItem.mainMenu__menuItem--events a {
+    color: white;
+    transition: none; }
+  .header.header--eventsActive .mainMenu .mainMenu__menuItem.mainMenu__menuItem--events:after {
+    content: '';
+    position: relative;
+    left: 50%;
+    top: 0px;
+    transform: translateX(-50%);
+    width: 70%;
+    background-color: white;
+    opacity: 1;
+    display: block;
+    height: 2px;
+    transition: none; }
+  .header.header--sponsorsActive .mainMenu .mainMenu__menuItem.mainMenu__menuItem--sponsors a {
+    color: white;
+    transition: none; }
+  .header.header--sponsorsActive .mainMenu .mainMenu__menuItem.mainMenu__menuItem--sponsors:after {
+    content: '';
+    position: relative;
+    left: 50%;
+    top: 0px;
+    transform: translateX(-50%);
+    width: 70%;
+    background-color: white;
+    opacity: 1;
+    display: block;
+    height: 2px;
+    transition: none; }
+
+  .mainMenu .mainMenu__list {
+    bottom: 5px;
+    right: 5vw; }
+  .mainMenu .mainMenu__menuItem {
+    margin: 5px; }
+    .mainMenu .mainMenu__menuItem:after {
+      content: '';
+      position: relative;
+      left: 50%;
+      top: 2px;
+      transform: translateX(-50%);
+      width: 70%;
+      background-color: white;
+      opacity: 0;
+      display: block;
+      height: 2px;
+      transition: opacity 0.2s, top 0.2s; }
+    .mainMenu .mainMenu__menuItem a {
+      text-decoration: none;
+      display: block;
+      text-align: center;
+      padding: 5px 15px 5px 15px;
+      color: #DADADA;
+      font-weight: bold;
+      font-size: 1.0em;
+      transition: color 0.2s; }
+      .mainMenu .mainMenu__menuItem a:hover {
+        color: white; }
+    .mainMenu .mainMenu__menuItem:hover:after {
+      content: '';
+      position: relative;
+      left: 50%;
+      top: 0px;
+      transform: translateX(-50%);
+      width: 70%;
+      background-color: white;
+      opacity: 1;
+      display: block;
+      height: 2px; }
+  .mainMenu.mainMenu--backgroundVisible {
+    background-color: rgba(69, 82, 107, 0.8); } }
+.mainMenu {
+  transition: background-color 0.2s;
+  background-color: rgba(0, 0, 0, 0);
+  height: 75px;
+  width: 100%; }
+  .mainMenu .mainMenu__list {
+    list-style-type: none;
+    display: flex;
+    position: absolute; }
+
+.logo.logo--header {
+  position: absolute;
+  left: 3vw;
+  bottom: 0px;
+  height: 75px;
+  z-index: 1; }
+.logo img {
+  height: 100%; }
+
+/*FOOTER*/
+footer {
+  position: relative;
+  width: 100%;
+  height: 150px;
+  /* Style all font awesome icons */ }
+  footer .footer-content {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%); }
+  footer .footer-text {
+    font-size: 1.3em;
+    width: 100%;
+    text-align: center;
+    white-space: nowrap; }
+    @media only screen and (max-width: 460px) {
+      footer .footer-text {
+        font-size: 1.2em; } }
+    @media only screen and (max-width: 440px) {
+      footer .footer-text {
+        font-size: 1.1em; } }
+    @media only screen and (max-width: 420px) {
+      footer .footer-text {
+        font-size: 1.0em; } }
+    @media only screen and (max-width: 340px) {
+      footer .footer-text {
+        font-size: 0.9em; } }
+  footer .social-icons {
+    width: 100%;
+    text-align: center; }
+  footer a {
+    font-size: 1.6em;
+    /* Add a hover effect if you want */ }
+    footer a .fa {
+      padding: 10px;
+      color: #333; }
+    footer a .fa:hover {
+      opacity: 0.8; }
+
+/* Set a specific color for each brand */
+/* Facebook */
+/*
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+*/
+.bannerImage {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  position: relative; }
+  @media only screen and (max-width: 1049px) {
+    .bannerImage .bannerImage__bannerImage__hackathonTextBlock .buttonBlock {
+      align-items: center;
+      flex-direction: column; }
+    .bannerImage .bannerImage__bannerImage__hackathonTextBlock .buttonBlock__twoCol {
+      margin-top: 10px;
+      margin-bottom: 10px; }
+    .bannerImage .bannerImage__image.bannerImage__image {
+      background-position: 50% 25%; } }
+  @media only screen and (min-width: 1050px) {
+    .bannerImage .bannerImage__bannerImage__hackathonTextBlock {
+      padding-top: 20px; }
+      .bannerImage .bannerImage__bannerImage__hackathonTextBlock .buttonBlock {
+        justify-content: center;
+        padding-top: 15px; }
+      .bannerImage .bannerImage__bannerImage__hackathonTextBlock .buttonBlock__twoCol {
+        margin-left: 35px;
+        margin-right: 35px; }
+    .bannerImage .bannerImage__image.bannerImage__image {
+      background-position: 50% 30%; } }
+  .bannerImage .bannerImage__textBlock {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2; }
+    .bannerImage .bannerImage__textBlock .textBlock__titleText {
+      color: #fff;
+      text-align: center;
+      font-size: 5em; }
+    .bannerImage .bannerImage__textBlock .textBlock__subText {
+      color: #fff;
+      text-align: center;
+      font-size: 1.5em; }
+  .bannerImage .bannerImage__bannerImage__hackathonTextBlock {
+    position: absolute;
+    z-index: 2;
+    top: 60%;
+    left: 50%;
+    transform: translateX(-50%); }
+    .bannerImage .bannerImage__bannerImage__hackathonTextBlock .textBlock__hackathonTitle {
+      color: #fff;
+      text-align: center;
+      font-size: 1.8em; }
+    .bannerImage .bannerImage__bannerImage__hackathonTextBlock .textBlock__hackathonDate {
+      color: #fff;
+      text-align: center;
+      font-size: 0.8em; }
+    .bannerImage .bannerImage__bannerImage__hackathonTextBlock .textBlock__hackathonCountdown {
+      padding: 15px;
+      color: #fff;
+      text-align: center;
+      font-size: 2.1em;
+      white-space: nowrap; }
+      @media only screen and (max-width: 580px) {
+        .bannerImage .bannerImage__bannerImage__hackathonTextBlock .textBlock__hackathonCountdown {
+          font-size: 1.9em; } }
+      @media only screen and (max-width: 500px) {
+        .bannerImage .bannerImage__bannerImage__hackathonTextBlock .textBlock__hackathonCountdown {
+          font-size: 1.8em; } }
+      @media only screen and (max-width: 450px) {
+        .bannerImage .bannerImage__bannerImage__hackathonTextBlock .textBlock__hackathonCountdown {
+          font-size: 1.6em; } }
+      @media only screen and (max-width: 400px) {
+        .bannerImage .bannerImage__bannerImage__hackathonTextBlock .textBlock__hackathonCountdown {
+          font-size: 1.4em; } }
+      @media only screen and (max-width: 370px) {
+        .bannerImage .bannerImage__bannerImage__hackathonTextBlock .textBlock__hackathonCountdown {
+          font-size: 1.3em; } }
+    .bannerImage .bannerImage__bannerImage__hackathonTextBlock .buttonBlock {
+      position: relative;
+      display: flex; }
+      .bannerImage .bannerImage__bannerImage__hackathonTextBlock .buttonBlock .buttonBlock__twoCol {
+        color: white;
+        border-color: white;
+        border-width: 1px;
+        border-style: solid;
+        width: 150px;
+        text-align: center;
+        padding: 5px 0 5px 0;
+        transition: 0.2s color linear, 0.2s background-color linear; }
+        .bannerImage .bannerImage__bannerImage__hackathonTextBlock .buttonBlock .buttonBlock__twoCol:hover {
+          color: black;
+          background-color: white;
+          cursor: pointer; }
+  .bannerImage .bannerImage__overley {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.2; }
+  .bannerImage .bannerImage__background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    background: linear-gradient(to bottom, rgba(69, 82, 107, 0.8), rgba(0, 0, 0, 0.2)); }
+  .bannerImage .bannerImage__image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover; }
+    .bannerImage .bannerImage__image.bannerImage__image--about {
+      background-image: url("../img/UTRA Exec Photoshoot 171120/DSC_4016.jpg");
+      background-position: 50% 30%; }
+    .bannerImage .bannerImage__image.bannerImage__image--hackathon {
+      z-index: 1;
+      background-image: url("../Pictures/hackathon/torontoSkylineHD.png");
+      background-size: auto 40%; }
+
+.shortBanner {
+  width: 100%;
+  padding-top: 75px;
+  height: 40vh;
+  position: relative;
+  background-color: #F5F9Fc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; }
+  .shortBanner .shortBanner__titleText {
+    color: #45526B;
+    font-size: 3em; }
+  .shortBanner .shortBanner__content p {
+    color: #45526B; }
+  .shortBanner.shortBanner--noPhoto {
+    height: 25vh; }
+
+.fullScreenImage {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%; }
+  .fullScreenImage .fullScreenImage__overley {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.2; }
+  .fullScreenImage .fullScreenImage__image {
+    background-image: url("../img/SUMO/good.jpg");
+    background-size: cover;
+    background-position: 50% 25%;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    height: 100%; }
+
+.onePagerSection {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 50px; }
+  .onePagerSection:nth-child(odd) {
+    background-color: #F5F9FC; }
+  .onePagerSection .onePagerSection__title {
+    padding-bottom: 20px;
+    position: relative;
+    text-align: center;
+    font-size: 2.5em;
+    width: 100%; }
+    .onePagerSection .onePagerSection__title:after {
+      display: block;
+      content: '';
+      height: 3px;
+      width: 30px;
+      background-color: #CD959A;
+      margin-top: 10px;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%); }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  width: 100vw;
+  overflow-x: hidden;
+  background-color: #D2DCE5; }
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: 'Abel', sans-serif;
+  font-style: normal; }
+
+.header--aboutActive .mainMenu .mainMenu__menuItem.mainMenu__menuItem--about a {
+  color: white; }
+.header--aboutActive .mainMenu .mainMenu__menuItem.mainMenu__menuItem--about:after {
+  content: '';
+  position: relative;
+  left: 50%;
+  top: 0px;
+  transform: translateX(-50%);
+  width: 70%;
+  background-color: white;
+  opacity: 1;
+  display: block;
+  height: 2px; }
+
+.header--locationActive .mainMenu .mainMenu__menuItem.mainMenu__menuItem--location a {
+  color: white; }
+.header--locationActive .mainMenu .mainMenu__menuItem.mainMenu__menuItem--location:after {
+  content: '';
+  position: relative;
+  left: 50%;
+  top: 0px;
+  transform: translateX(-50%);
+  width: 70%;
+  background-color: white;
+  opacity: 1;
+  display: block;
+  height: 2px; }
+
+.header--scheduleActive .mainMenu .mainMenu__menuItem.mainMenu__menuItem--schedule a {
+  color: white; }
+.header--scheduleActive .mainMenu .mainMenu__menuItem.mainMenu__menuItem--schedule:after {
+  content: '';
+  position: relative;
+  left: 50%;
+  top: 0px;
+  transform: translateX(-50%);
+  width: 70%;
+  background-color: white;
+  opacity: 1;
+  display: block;
+  height: 2px; }
+
+.header--faqActive .mainMenu .mainMenu__menuItem.mainMenu__menuItem--faq a {
+  color: white; }
+.header--faqActive .mainMenu .mainMenu__menuItem.mainMenu__menuItem--faq:after {
+  content: '';
+  position: relative;
+  left: 50%;
+  top: 0px;
+  transform: translateX(-50%);
+  width: 70%;
+  background-color: white;
+  opacity: 1;
+  display: block;
+  height: 2px; }
+
+.header--sponsorsActive .mainMenu .mainMenu__menuItem.mainMenu__menuItem--sponsors a {
+  color: white; }
+.header--sponsorsActive .mainMenu .mainMenu__menuItem.mainMenu__menuItem--sponsors:after {
+  content: '';
+  position: relative;
+  left: 50%;
+  top: 0px;
+  transform: translateX(-50%);
+  width: 70%;
+  background-color: white;
+  opacity: 1;
+  display: block;
+  height: 2px; }
+
+.aboutFlexContainer {
+  position: relative;
+  display: flex;
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  width: 100%; }
+  @media only screen and (max-width: 1049px) {
+    .aboutFlexContainer .iconContainer {
+      margin-left: 10px;
+      margin-right: 10px;
+      justify-content: space-around; } }
+  @media only screen and (max-width: 1049px) and (max-width: 580px) {
+    .aboutFlexContainer .iconContainer {
+      justify-content: space-between; } }
+  @media only screen and (max-width: 1049px) {
+      .aboutFlexContainer .iconContainer .aboutIcon .aboutIcon__img {
+        height: 130px; } }
+    @media only screen and (max-width: 1049px) and (max-width: 580px) {
+      .aboutFlexContainer .iconContainer .aboutIcon .aboutIcon__img {
+        height: 100px; } }
+    @media only screen and (max-width: 1049px) and (max-width: 500px) {
+      .aboutFlexContainer .iconContainer .aboutIcon .aboutIcon__img {
+        height: 80px; } }
+    @media only screen and (max-width: 1049px) and (max-width: 450px) {
+      .aboutFlexContainer .iconContainer .aboutIcon .aboutIcon__img {
+        height: 60px; } }
+  @media only screen and (max-width: 1049px) {
+      .aboutFlexContainer .iconContainer .aboutIcon .aboutIcon__text {
+        font-size: 1.5em; }
+    .aboutFlexContainer .aboutFlexContainer__content {
+      font-size: 1.2em;
+      line-height: 1.4em;
+      padding-left: 15px;
+      padding-right: 15px; }
+      .aboutFlexContainer .aboutFlexContainer__content:last-child {
+        padding-top: 30px; } }
+  @media only screen and (max-width: 1049px) and (max-width: 580px) {
+    .aboutFlexContainer .aboutFlexContainer__content {
+      text-align: center; } }
+
+  @media only screen and (min-width: 1050px) {
+    .aboutFlexContainer .iconContainer {
+      justify-content: space-around; }
+      .aboutFlexContainer .iconContainer .aboutIcon .aboutIcon__img {
+        height: 150px; }
+      .aboutFlexContainer .iconContainer .aboutIcon .aboutIcon__text {
+        font-size: 2em; }
+    .aboutFlexContainer .aboutFlexContainer__content {
+      font-size: 1.5em;
+      padding-left: 15px;
+      padding-right: 15px; }
+      .aboutFlexContainer .aboutFlexContainer__content:last-child {
+        padding-top: 40px; } }
+  .aboutFlexContainer .iconContainer {
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    margin-bottom: 20px; }
+    .aboutFlexContainer .iconContainer .aboutIcon .aboutIcon__img {
+      position: relative;
+      left: 50%;
+      transform: translateX(-50%);
+      width: fit-content;
+      background-size: 100% 100%;
+      transition: opacity 0.2s;
+      display: inline-block; }
+      .aboutFlexContainer .iconContainer .aboutIcon .aboutIcon__img img {
+        height: 100%;
+        width: auto; }
+      .aboutFlexContainer .iconContainer .aboutIcon .aboutIcon__img:hover {
+        opacity: 0.6; }
+    .aboutFlexContainer .iconContainer .aboutIcon .aboutIcon__text {
+      font-weight: 600;
+      padding: 15px;
+      text-align: center; }
+
+.locationFlexContainer {
+  display: flex;
+  position: relative;
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  max-width: 1200px;
+  align-items: center;
+  width: 100%;
+  height: 75vh; }
+  .locationFlexContainer .map {
+    position: relative;
+    width: 100%;
+    height: 100%; }
+    .locationFlexContainer .map #hackathonMaps {
+      position: absolute;
+      width: 100%;
+      height: 100%; }
+
+.scheduleLegend {
+  position: relative;
+  margin-top: 30px;
+  width: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: nowrap; }
+  .scheduleLegend .scheduleLegend__item {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-left: 30px;
+    margin-right: 30px; }
+    @media only screen and (max-width: 420px) {
+      .scheduleLegend .scheduleLegend__item {
+        margin-left: 15px;
+        margin-right: 15px; } }
+    @media only screen and (max-width: 360px) {
+      .scheduleLegend .scheduleLegend__item {
+        margin-left: 10px;
+        margin-right: 10px; } }
+    @media only screen and (max-width: 340px) {
+      .scheduleLegend .scheduleLegend__item {
+        margin-left: 5px;
+        margin-right: 5px; } }
+    @media only screen and (max-width: 320px) {
+      .scheduleLegend .scheduleLegend__item {
+        margin-left: 0px;
+        margin-right: 0px; } }
+    .scheduleLegend .scheduleLegend__item svg {
+      margin-left: 5px;
+      margin-right: 5px; }
+    .scheduleLegend .scheduleLegend__item .scheduleLegend__itemTitle {
+      margin-left: 5px;
+      margin-right: 5px; }
+
+.timeTableHeader {
+  position: relative;
+  margin-top: 30px;
+  width: 80%; }
+  .timeTableHeader .timeTableHeader__title {
+    position: relative;
+    font-size: 1.5em;
+    text-align: center; }
+
+.timeTable {
+  background-color: #F5F9FC;
+  width: 80%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 15px; }
+  .timeTable .timeTable__row {
+    position: relative;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    align-items: center; }
+    .timeTable .timeTable__row .timetimeTable__timeHeader {
+      order: 1;
+      text-align: center;
+      padding: 20px 30px 20px 30px;
+      transition: background-color 0.1s linear; }
+      @media only screen and (max-width: 500px) {
+        .timeTable .timeTable__row .timetimeTable__timeHeader {
+          padding: 30px 15px 30px 15px; } }
+    .timeTable .timeTable__row .timeTable__event {
+      position: relative;
+      order: 2;
+      flex: 1;
+      height: 100%;
+      transition: background-color 0.1s linear; }
+@media only screen and (max-width: 1049px) and (max-width: 500px) {
+  .timeTable .timeTable__row .timeTable__event .timeTable__eventMarkerWrapper .timeTable__eventTimeAndDetails {
+    transform: translateX(20px); }
+    .timeTable .timeTable__row .timeTable__event .timeTable__eventMarkerWrapper .timeTable__eventTimeAndDetails p {
+      font-size: 0.8em; } }
+@media only screen and (max-width: 1049px) and (max-width: 430px) {
+  .timeTable .timeTable__row .timeTable__event .timeTable__eventMarkerWrapper.timeTable__eventMarkerWrapper--position1 .timeTable__eventTimeAndDetails p {
+    max-width: 150px; } }
+@media only screen and (max-width: 1049px) and (max-width: 350px) {
+  .timeTable .timeTable__row .timeTable__event .timeTable__eventMarkerWrapper.timeTable__eventMarkerWrapper--position1 .timeTable__eventTimeAndDetails p {
+    max-width: 100px; } }
+      @media only screen and (max-width: 1049px) {
+        .timeTable .timeTable__row .timeTable__event .timeTable__eventMarkerWrapper.timeTable__eventMarkerWrapper--position2 {
+          margin-left: 250px; }
+          .timeTable .timeTable__row .timeTable__event .timeTable__eventMarkerWrapper.timeTable__eventMarkerWrapper--position2 .timeTable__eventTimeAndDetails p {
+            max-width: 200px; } }
+    @media only screen and (max-width: 1049px) and (max-width: 430px) {
+      .timeTable .timeTable__row .timeTable__event .timeTable__eventMarkerWrapper.timeTable__eventMarkerWrapper--position2 .timeTable__eventTimeAndDetails p {
+        max-width: 150px; } }
+    @media only screen and (max-width: 1049px) and (max-width: 350px) {
+      .timeTable .timeTable__row .timeTable__event .timeTable__eventMarkerWrapper.timeTable__eventMarkerWrapper--position2 .timeTable__eventTimeAndDetails p {
+        max-width: 100px; } }
+  @media only screen and (max-width: 1049px) and (max-width: 750px) {
+    .timeTable .timeTable__row .timeTable__event .timeTable__eventMarkerWrapper.timeTable__eventMarkerWrapper--position2 {
+      margin-left: 200px; } }
+  @media only screen and (max-width: 1049px) and (max-width: 660px) {
+    .timeTable .timeTable__row .timeTable__event .timeTable__eventMarkerWrapper.timeTable__eventMarkerWrapper--position2 {
+      margin-left: 170px; } }
+  @media only screen and (max-width: 1049px) and (max-width: 630px) {
+    .timeTable .timeTable__row .timeTable__event .timeTable__eventMarkerWrapper.timeTable__eventMarkerWrapper--position2 {
+      margin-left: 140px; } }
+  @media only screen and (max-width: 1049px) and (max-width: 590px) {
+    .timeTable .timeTable__row .timeTable__event .timeTable__eventMarkerWrapper.timeTable__eventMarkerWrapper--position2 {
+      margin-left: 120px; } }
+  @media only screen and (max-width: 1049px) and (max-width: 560px) {
+    .timeTable .timeTable__row .timeTable__event .timeTable__eventMarkerWrapper.timeTable__eventMarkerWrapper--position2 {
+      margin-left: 80px; } }
+  @media only screen and (max-width: 1049px) and (max-width: 520px) {
+    .timeTable .timeTable__row .timeTable__event .timeTable__eventMarkerWrapper.timeTable__eventMarkerWrapper--position2 {
+      margin-left: 50px; } }
+
+      @media only screen and (min-width: 1050px) {
+        .timeTable .timeTable__row .timeTable__event .timeTable__eventMarkerWrapper .timeTable__eventTimeAndDetails {
+          white-space: nowrap; }
+        .timeTable .timeTable__row .timeTable__event .timeTable__eventMarkerWrapper.timeTable__eventMarkerWrapper--position2 {
+          margin-left: 300px; } }
+      .timeTable .timeTable__row .timeTable__event .timeTable__eventHorizontalLine {
+        position: relative;
+        width: calc(100% - 30px);
+        height: 1px;
+        background-color: #DADADA;
+        top: 50%;
+        transform: translateY(-50%); }
+        @media only screen and (max-width: 500px) {
+          .timeTable .timeTable__row .timeTable__event .timeTable__eventHorizontalLine {
+            width: calc(100% - 15px); } }
+      .timeTable .timeTable__row .timeTable__event .timeTable__eventMarkerWrapper {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        border-left: 1.5px solid transparent; }
+        .timeTable .timeTable__row .timeTable__event .timeTable__eventMarkerWrapper .timeTable__eventDot {
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%); }
+          .timeTable .timeTable__row .timeTable__event .timeTable__eventMarkerWrapper .timeTable__eventDot.timeTable__eventDot--middleEndUp {
+            top: 100%; }
+          .timeTable .timeTable__row .timeTable__event .timeTable__eventMarkerWrapper .timeTable__eventDot.timeTable__eventDot--middleEndDown {
+            top: 0%; }
+        .timeTable .timeTable__row .timeTable__event .timeTable__eventMarkerWrapper .timeTable__eventVerticalLine {
+          position: absolute;
+          width: 2px;
+          height: 50%;
+          transform: translateX(5px); }
+          .timeTable .timeTable__row .timeTable__event .timeTable__eventMarkerWrapper .timeTable__eventVerticalLine.timeTable__eventVerticalLine--food {
+            background-color: #F2C94C; }
+          .timeTable .timeTable__row .timeTable__event .timeTable__eventMarkerWrapper .timeTable__eventVerticalLine.timeTable__eventVerticalLine--presentation {
+            background-color: #2F80ED; }
+          .timeTable .timeTable__row .timeTable__event .timeTable__eventMarkerWrapper .timeTable__eventVerticalLine.timeTable__eventVerticalLine--main {
+            background-color: #CD959A; }
+          .timeTable .timeTable__row .timeTable__event .timeTable__eventMarkerWrapper .timeTable__eventVerticalLine.timeTable__eventVerticalLine--down {
+            top: 50%; }
+          .timeTable .timeTable__row .timeTable__event .timeTable__eventMarkerWrapper .timeTable__eventVerticalLine.timeTable__eventVerticalLine--up {
+            bottom: 50%; }
+        .timeTable .timeTable__row .timeTable__event .timeTable__eventMarkerWrapper .timeTable__eventTimeAndDetails {
+          position: absolute;
+          transform: translateX(25px); }
+          .timeTable .timeTable__row .timeTable__event .timeTable__eventMarkerWrapper .timeTable__eventTimeAndDetails .timeTable__eventTimeAndDetails--food {
+            color: #F2C94C; }
+          .timeTable .timeTable__row .timeTable__event .timeTable__eventMarkerWrapper .timeTable__eventTimeAndDetails .timeTable__eventTimeAndDetails--presentation {
+            color: #2F80ED; }
+          .timeTable .timeTable__row .timeTable__event .timeTable__eventMarkerWrapper .timeTable__eventTimeAndDetails .timeTable__eventTimeAndDetails--main {
+            color: #CD959A; }
+          .timeTable .timeTable__row .timeTable__event .timeTable__eventMarkerWrapper .timeTable__eventTimeAndDetails.timeTable__eventTimeAndDetails--down {
+            bottom: 50%; }
+          .timeTable .timeTable__row .timeTable__event .timeTable__eventMarkerWrapper .timeTable__eventTimeAndDetails.timeTable__eventTimeAndDetails--up {
+            top: 50%; }
+        .timeTable .timeTable__row .timeTable__event .timeTable__eventMarkerWrapper.timeTable__eventMarkerWrapper--position1 {
+          margin-left: 20px; }
+    .timeTable .timeTable__row:first-child .timetimeTable__timeHeader {
+      padding-top: 40px; }
+    .timeTable .timeTable__row:first-child .timeTable__event {
+      padding-top: 20px;
+      height: calc(100% - 20px); }
+      .timeTable .timeTable__row:first-child .timeTable__event .timeTable__eventMarkerWrapper {
+        height: calc(100% - 20px); }
+      @media only screen and (max-width: 500px) {
+        .timeTable .timeTable__row:first-child .timeTable__event {
+          padding-top: 10px;
+          height: calc(100% - 10px); }
+          .timeTable .timeTable__row:first-child .timeTable__event .timeTable__eventMarkerWrapper {
+            height: calc(100% - 10px); } }
+    .timeTable .timeTable__row:last-child .timetimeTable__timeHeader {
+      padding-bottom: 40px; }
+    .timeTable .timeTable__row:last-child .timeTable__event {
+      padding-bottom: 20px;
+      height: calc(100% - 20px); }
+      .timeTable .timeTable__row:last-child .timeTable__event .timeTable__eventMarkerWrapper {
+        height: calc(100% - 20px); }
+      @media only screen and (max-width: 500px) {
+        .timeTable .timeTable__row:last-child .timeTable__event {
+          padding-bottom: 10px;
+          height: calc(100% - 10px); }
+          .timeTable .timeTable__row:last-child .timeTable__event .timeTable__eventMarkerWrapper {
+            height: calc(100% - 10px); } }
+
+.QandAFlexContainer {
+  position: relative;
+  display: flex;
+  flex-wrap: nowrap;
+  max-width: 1200px; }
+  @media only screen and (max-width: 1049px) {
+    .QandAFlexContainer {
+      flex-direction: column;
+      margin-top: 15px; }
+      .QandAFlexContainer .QandAFlexCol .QandA .faq__question {
+        background-color: #F5F9Fc;
+        padding: 15px;
+        text-align: center;
+        border-bottom: solid 1px #D2DCE5;
+        transition: color 0.2s ease-out, opcity 0.1s linear;
+        cursor: pointer;
+        font-size: 1.3em; }
+        .QandAFlexContainer .QandAFlexCol .QandA .faq__question:hover {
+          opacity: 0.8; }
+        .QandAFlexContainer .QandAFlexCol .QandA .faq__question.faq__question--active {
+          color: #CD959A; }
+      .QandAFlexContainer .QandAFlexCol .QandA .faq__answerWrapper {
+        position: relative;
+        overflow: hidden;
+        text-align: center;
+        max-height: 0px;
+        transition: max-height 0.2s ease-out; }
+        .QandAFlexContainer .QandAFlexCol .QandA .faq__answerWrapper .faq__answer {
+          padding: 15px;
+          text-align: center; } }
+  @media only screen and (min-width: 1050px) {
+    .QandAFlexContainer {
+      justify-content: space-between;
+      flex-direction: row; }
+      .QandAFlexContainer .QandAFlexCol {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 25%; }
+        .QandAFlexContainer .QandAFlexCol .QandA {
+          margin-top: 30px;
+          margin-bottom: 30px; }
+          .QandAFlexContainer .QandAFlexCol .QandA .faq__question {
+            margin-bottom: 10px; } }
+  .QandAFlexContainer .QandAFlexCol {
+    margin-left: 50px;
+    margin-right: 50px; }
+    .QandAFlexContainer .QandAFlexCol .QandA:first-child {
+      margin-top: 0px; }
+    .QandAFlexContainer .QandAFlexCol .QandA:last-child {
+      margin-bottom: 0px; }
+
+.sponsorList {
+  position: relative;
+  display: inline-flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  max-width: 1200px;
+  width: 100%;
+  margin-top: 10px;
+  margin-left: 30px;
+  margin-right: 30px; }
+  .sponsorList .sponsorList__img {
+    position: relative;
+    height: 100px;
+    margin: 20px; }
+    .sponsorList .sponsorList__img img {
+      height: 100%;
+      opacity: 1; }
+
+.sponsorList .sponsorList__img.sponsorList__img--utra{
+  height: 300px;
+}
+
+
+
+.buttonBlock a{
+  text-decoration: none;
+}
+
+section .sponsorList__subtitle{
+  font-size: 2em;
+  padding-top: 20px;
+  padding-bottom: 5px;
+}
+
+section .sponsorList__subtitle.sponsorList__subtitle--sponsor{
+  padding-top: 30px;
+}
+/*# sourceMappingURL=hackathon.css.map */

@@ -1,0 +1,589 @@
+---
+permalink: /hackathon/index.html
+---
+<!DOCTYPE html>
+<html>
+<head>
+	<title>UTRA | Hackathon</title>
+
+	<!-- hackathon style sheet -->
+	<link rel="stylesheet" type="text/css" href="../css/hackathon.css">
+
+	<!-- Font Awesome icons -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<!-- Ionicons -->
+	<link href="https://unpkg.com/ionicons@4.1.1/dist/css/ionicons.min.css" rel="stylesheet">
+
+	<!-- Abel Font -->
+	<link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+
+	<!-- loading JQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<!-- javascript -->
+	<script type="text/javascript" src="../resources/javascript/header.js" ></script>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- <link rel="shortcut icon" type="image/x-icon" href="./assets/imghackathonicons/hackathonWhiteLogo.png" /> -->
+</head>
+<body>
+	<header class="header">{% include hackathonHeader.html %}</header>
+
+	<div class="bannerImage">
+		
+		<!-- <div class="bannerImage__textBlock">
+			<h1 class="textBlock__titleText">UtraHacks</h1>
+			<h1 class="textBlock__subText">@ MaRs Discovery District</h1>
+		</div> -->
+		<div class="bannerImage__countDown">
+			
+		</div>
+		
+		<div class="bannerImage__image bannerImage__image--hackathon"></div>
+		<div class="bannerImage__background"></div>
+		<div class="bannerImage__bannerImage__hackathonTextBlock">
+			<div class="textBlock__hackathonTitle">UtraHacks 2018</div>
+			<div class="textBlock__hackathonDate">2018/09/29 - 2018/09/30</div>
+			<div id="hackathonCounter" class="textBlock__hackathonCountdown">Start Hacking in...</div>
+			<div class="buttonBlock">
+				<a href="https://utrahacks2018.typeform.com/to/h1PelD"><div class="buttonBlock__twoCol">Register</div></a>
+				<a href="mailto:sponsorhacks@utra.ca"><div class="buttonBlock__twoCol">Sponsor Us</div></a>
+			</div>
+		</div>
+	</div>
+
+	<section id ="about" class="onePagerSection onePagerSection--about">
+		<h1 class="onePagerSection__title">About</h1>
+		
+		<div class="aboutFlexContainer">
+			<div class="iconContainer">
+				<div class="aboutIcon">
+					<div class="aboutIcon__img aboutIcon__img--design">
+						<img src="../Pictures/hackathon/design.png" alt="design">
+					</div>
+					<p class="aboutIcon__text">Design</p>
+				</div>
+				<div class="aboutIcon">
+					<div class="aboutIcon__img aboutIcon__img--build">
+						<img src="../Pictures/hackathon/build.png" alt="build">
+					</div>
+					<p class="aboutIcon__text">Build</p>
+				</div>
+				<div class="aboutIcon">
+					<div class="aboutIcon__img aboutIcon__img--inspire">
+						<img src="../Pictures/hackathon/inspire.png" alt="inspire">
+					</div>
+					<p class="aboutIcon__text">Inspire</p>
+				</div>
+			</div>
+			<p class="aboutFlexContainer__content">2018 is UTRA’s first year hosting this event. Following UTRA’s mission - to foster creativity and innovation, and cultivate science and technology leaders of the future by providing students with the opportunities to design and build advanced robotic technologies. The team started planning for this event with a mindset of “Design, Build, Inspire”. Without limitation on the design scope, we believe this event could bring a variety of brilliant ideas and creative minds together. 17 hours of hacking is a short time for a fully functional and manufacturable product, but ideas and prototypes are always where future technologies start at. </p>
+			<p class="aboutFlexContainer__content">In this event, student teams are required to build a physical prototype within the given time, then pitch to the judges. Judging of the event is based on a few criterias including functionality, innovativity, and most importantly, real-world potential.</p>
+		</div>
+	</section>
+
+	<section id="schedule" class="onePagerSection onePagerSection--schedule">
+		<h1 class="onePagerSection__title">Schedule</h1>		
+		
+		<div class="scheduleLegend">
+			<div class="scheduleLegend__item">
+				<svg height="20" width="20" >
+					<circle cx="10" cy="10" r="10" fill="#CD959A" />  
+				</svg> 
+				<p class="scheduleLegend__itemTitle">Main</p>
+			</div>
+			<div class="scheduleLegend__item">
+				<svg height="20" width="20">
+					<circle cx="10" cy="10" r="10" fill="#2F80ED" />  
+				</svg> 
+				<p class="scheduleLegend__itemTitle">Presentations</p>
+			</div>
+			<div class="scheduleLegend__item">
+				<svg height="20" width="20">
+					<circle cx="10" cy="10" r="10" fill="#F2C94C" />  
+				</svg> 
+				<p class="scheduleLegend__itemTitle">Food</p>
+			</div>
+		<!-- 	<div class="scheduleLegend__item">
+				<svg height="20" width="20">
+					<circle cx="10" cy="10" r="10" fill="#6FCFC9" />  
+				</svg> 
+				<p class="scheduleLegend__itemTitle">Fun</p>
+			</div>
+			<div class="scheduleLegend__item">
+				<svg height="20" width="20">
+					<circle cx="10" cy="10" r="10" fill="#C4C4C4" />  
+				</svg> 
+				<p class="scheduleLegend__itemTitle">Others</p>
+			</div> -->
+		</div>
+		
+		<div class="timeTableHeader">
+			<p class="timeTableHeader__title">Saturday Sept 29 2018</p>
+		</div>
+		
+		<div class="timeTable">
+			<!-- 8 AM -->
+			<div class="timeTable__row">
+				<p class="timetimeTable__timeHeader">08:00</p>
+				<div class="timeTable__event">
+					<div class="timeTable__eventHorizontalLine"></div>
+					<div class="timeTable__eventMarkerWrapper timeTable__eventMarkerWrapper--position1">
+						<div class="timeTable__eventDot">
+							<svg  height="12" width="12">
+								<circle cx="6" cy="6" r="6" fill="#F2C94C"/>  
+							</svg> 
+						</div>
+						<div class="timeTable__eventVerticalLine timeTable__eventVerticalLine--down timeTable__eventVerticalLine--food"></div>
+						<div class="timeTable__eventTimeAndDetails timeTable__eventTimeAndDetails--up">
+							<p>8:00 - 9:00 <a class="timeTable__eventTimeAndDetails--food">| Breakfast + Registration</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- 9 AM -->
+			<div class="timeTable__row">
+				<p class="timetimeTable__timeHeader">09:00</p>
+				<div class="timeTable__event">
+					<div class="timeTable__eventHorizontalLine"></div>
+					<div class="timeTable__eventMarkerWrapper timeTable__eventMarkerWrapper--position1">
+						<div class="timeTable__eventDot">
+							<svg  height="12" width="12">
+								<circle cx="6" cy="6" r="6" fill="#F2C94C"/>  
+							</svg> 
+						</div>
+						<div class="timeTable__eventVerticalLine timeTable__eventVerticalLine--up timeTable__eventVerticalLine--food"></div>
+					</div>
+					<div class="timeTable__eventMarkerWrapper timeTable__eventMarkerWrapper--position2">
+						<div class="timeTable__eventDot">
+							<svg  height="12" width="12">
+								<circle cx="6" cy="6" r="6" fill="#2F80ED"/>  
+							</svg> 
+						</div>
+						<div class="timeTable__eventVerticalLine timeTable__eventVerticalLine--down timeTable__eventVerticalLine--presentation"></div>
+						<div class="timeTable__eventDot timeTable__eventDot--middleEndUp">
+							<svg  height="12" width="12">
+								<circle cx="6" cy="6" r="6" fill="#2F80ED"/>  
+							</svg> 
+						</div>
+						<div class="timeTable__eventTimeAndDetails timeTable__eventTimeAndDetails--up">
+							<p>9:00 - 9:30 <a class="timeTable__eventTimeAndDetails--presentation">| Opening Ceremony</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- 10 AM -->
+			<div class="timeTable__row">
+				<p class="timetimeTable__timeHeader">10:00</p>
+				<div class="timeTable__event">
+					<div class="timeTable__eventHorizontalLine"></div>
+					<div class="timeTable__eventMarkerWrapper timeTable__eventMarkerWrapper--position1">
+						<div class="timeTable__eventDot timeTable__eventDot--middleEndDown">
+							<svg  height="12" width="12">
+								<circle cx="6" cy="6" r="6" fill="#CD959A"/>  
+							</svg> 
+						</div>
+						<div class="timeTable__eventVerticalLine timeTable__eventVerticalLine--up timeTable__eventVerticalLine--main"></div>
+						<div class="timeTable__eventVerticalLine timeTable__eventVerticalLine--down timeTable__eventVerticalLine--main"></div>
+						<div class="timeTable__eventTimeAndDetails timeTable__eventTimeAndDetails--down">
+							<p>9:30 - 22:30 <a class="timeTable__eventTimeAndDetails--main">| Hacking</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- 11 AM -->
+			<div class="timeTable__row">
+				<p class="timetimeTable__timeHeader">11:00</p>
+				<div class="timeTable__event">
+					<div class="timeTable__eventHorizontalLine"></div>
+					<div class="timeTable__eventMarkerWrapper timeTable__eventMarkerWrapper--position1">
+						<div class="timeTable__eventVerticalLine timeTable__eventVerticalLine--up timeTable__eventVerticalLine--main"></div>
+						<div class="timeTable__eventVerticalLine timeTable__eventVerticalLine--down timeTable__eventVerticalLine--main"></div>
+					</div>
+				</div>
+			</div>
+			<!-- 12 AM -->
+			<div class="timeTable__row">
+				<p class="timetimeTable__timeHeader">12:00</p>
+				<div class="timeTable__event">
+					<div class="timeTable__eventHorizontalLine"></div>
+					<div class="timeTable__eventMarkerWrapper timeTable__eventMarkerWrapper--position1">
+						<div class="timeTable__eventVerticalLine timeTable__eventVerticalLine--up timeTable__eventVerticalLine--main"></div>
+						<div class="timeTable__eventVerticalLine timeTable__eventVerticalLine--down timeTable__eventVerticalLine--main"></div>
+					</div>
+					<div class="timeTable__eventMarkerWrapper timeTable__eventMarkerWrapper--position2">
+						<div class="timeTable__eventDot">
+							<svg  height="12" width="12">
+								<circle cx="6" cy="6" r="6" fill="#F2C94C"/>  
+							</svg> 
+						</div>
+						<div class="timeTable__eventVerticalLine timeTable__eventVerticalLine--down timeTable__eventVerticalLine--food"></div>
+						<div class="timeTable__eventTimeAndDetails timeTable__eventTimeAndDetails--up">
+							<p>12:00 - 13:00 <a class="timeTable__eventTimeAndDetails--food">| Lunch</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- 1 PM -->
+			<div class="timeTable__row">
+				<p class="timetimeTable__timeHeader">13:00</p>
+				<div class="timeTable__event">
+					<div class="timeTable__eventHorizontalLine"></div>
+					<div class="timeTable__eventMarkerWrapper timeTable__eventMarkerWrapper--position1">
+						<div class="timeTable__eventVerticalLine timeTable__eventVerticalLine--up timeTable__eventVerticalLine--main"></div>
+						<div class="timeTable__eventVerticalLine timeTable__eventVerticalLine--down timeTable__eventVerticalLine--main"></div>
+					</div>
+					<div class="timeTable__eventMarkerWrapper timeTable__eventMarkerWrapper--position2">
+						<div class="timeTable__eventDot">
+							<svg  height="12" width="12">
+								<circle cx="6" cy="6" r="6" fill="#F2C94C"/>  
+							</svg> 
+						</div>
+						<div class="timeTable__eventVerticalLine timeTable__eventVerticalLine--up timeTable__eventVerticalLine--food"></div>
+					</div>
+				</div>
+			</div>
+			<!-- 2 PM -->
+			<div class="timeTable__row">
+				<p class="timetimeTable__timeHeader">14:00</p>
+				<div class="timeTable__event">
+					<div class="timeTable__eventHorizontalLine"></div>
+					<div class="timeTable__eventMarkerWrapper timeTable__eventMarkerWrapper--position1">
+						<div class="timeTable__eventVerticalLine timeTable__eventVerticalLine--up timeTable__eventVerticalLine--main"></div>
+						<div class="timeTable__eventVerticalLine timeTable__eventVerticalLine--down timeTable__eventVerticalLine--main"></div>
+					</div>
+				</div>
+			</div>
+			<!-- 3 PM -->
+			<div class="timeTable__row">
+				<p class="timetimeTable__timeHeader">15:00</p>
+				<div class="timeTable__event">
+					<div class="timeTable__eventHorizontalLine"></div>
+					<div class="timeTable__eventMarkerWrapper timeTable__eventMarkerWrapper--position1">
+						<div class="timeTable__eventVerticalLine timeTable__eventVerticalLine--up timeTable__eventVerticalLine--main"></div>
+						<div class="timeTable__eventVerticalLine timeTable__eventVerticalLine--down timeTable__eventVerticalLine--main"></div>
+					</div>
+				</div>
+			</div>
+			<!-- 4 PM -->
+			<div class="timeTable__row">
+				<p class="timetimeTable__timeHeader">16:00</p>
+				<div class="timeTable__event">
+					<div class="timeTable__eventHorizontalLine"></div>
+					<div class="timeTable__eventMarkerWrapper timeTable__eventMarkerWrapper--position1">
+						<div class="timeTable__eventVerticalLine timeTable__eventVerticalLine--up timeTable__eventVerticalLine--main"></div>
+						<div class="timeTable__eventVerticalLine timeTable__eventVerticalLine--down timeTable__eventVerticalLine--main"></div>
+					</div>
+				</div>
+			</div>
+			<!-- 5 PM -->
+			<div class="timeTable__row">
+				<p class="timetimeTable__timeHeader">17:00</p>
+				<div class="timeTable__event">
+					<div class="timeTable__eventHorizontalLine"></div>
+					<div class="timeTable__eventMarkerWrapper timeTable__eventMarkerWrapper--position1">
+						<div class="timeTable__eventVerticalLine timeTable__eventVerticalLine--up timeTable__eventVerticalLine--main"></div>
+						<div class="timeTable__eventVerticalLine timeTable__eventVerticalLine--down timeTable__eventVerticalLine--main"></div>
+					</div>
+				</div>
+			</div>
+			<!-- 6 PM -->
+			<div class="timeTable__row">
+				<p class="timetimeTable__timeHeader">18:00</p>
+				<div class="timeTable__event">
+					<div class="timeTable__eventHorizontalLine"></div>
+					<div class="timeTable__eventMarkerWrapper timeTable__eventMarkerWrapper--position1">
+						<div class="timeTable__eventVerticalLine timeTable__eventVerticalLine--up timeTable__eventVerticalLine--main"></div>
+						<div class="timeTable__eventVerticalLine timeTable__eventVerticalLine--down timeTable__eventVerticalLine--main"></div>
+					</div>
+					<div class="timeTable__eventMarkerWrapper timeTable__eventMarkerWrapper--position2">
+						<div class="timeTable__eventDot">
+							<svg  height="12" width="12">
+								<circle cx="6" cy="6" r="6" fill="#F2C94C"/>  
+							</svg> 
+						</div>
+						<div class="timeTable__eventVerticalLine timeTable__eventVerticalLine--down timeTable__eventVerticalLine--food"></div>
+						<div class="timeTable__eventTimeAndDetails timeTable__eventTimeAndDetails--up">
+							<p>18:00 - 19:00 <a class="timeTable__eventTimeAndDetails--food">| Dinner</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- 7 PM -->
+			<div class="timeTable__row">
+				<p class="timetimeTable__timeHeader">19:00</p>
+				<div class="timeTable__event">
+					<div class="timeTable__eventHorizontalLine"></div>
+					<div class="timeTable__eventMarkerWrapper timeTable__eventMarkerWrapper--position1">
+						<div class="timeTable__eventVerticalLine timeTable__eventVerticalLine--up timeTable__eventVerticalLine--main"></div>
+						<div class="timeTable__eventVerticalLine timeTable__eventVerticalLine--down timeTable__eventVerticalLine--main"></div>
+					</div>
+					<div class="timeTable__eventMarkerWrapper timeTable__eventMarkerWrapper--position2">
+						<div class="timeTable__eventDot">
+							<svg  height="12" width="12">
+								<circle cx="6" cy="6" r="6" fill="#F2C94C"/>  
+							</svg> 
+						</div>
+						<div class="timeTable__eventVerticalLine timeTable__eventVerticalLine--up timeTable__eventVerticalLine--food"></div>
+					</div>
+				</div>
+			</div>
+			<!-- 8 PM -->
+			<div class="timeTable__row">
+				<p class="timetimeTable__timeHeader">20:00</p>
+				<div class="timeTable__event">
+					<div class="timeTable__eventHorizontalLine"></div>
+					<div class="timeTable__eventMarkerWrapper timeTable__eventMarkerWrapper--position1">
+						<div class="timeTable__eventVerticalLine timeTable__eventVerticalLine--up timeTable__eventVerticalLine--main"></div>
+						<div class="timeTable__eventVerticalLine timeTable__eventVerticalLine--down timeTable__eventVerticalLine--main"></div>
+					</div>
+				</div>
+			</div>
+			<!-- 9 PM -->
+			<div class="timeTable__row">
+				<p class="timetimeTable__timeHeader">21:00</p>
+				<div class="timeTable__event">
+					<div class="timeTable__eventHorizontalLine"></div>
+					<div class="timeTable__eventMarkerWrapper timeTable__eventMarkerWrapper--position1">
+						<div class="timeTable__eventVerticalLine timeTable__eventVerticalLine--up timeTable__eventVerticalLine--main"></div>
+						<div class="timeTable__eventVerticalLine timeTable__eventVerticalLine--down timeTable__eventVerticalLine--main"></div>
+					</div>
+				</div>
+			</div>	
+			<!-- 10 PM -->
+			<div class="timeTable__row">
+				<p class="timetimeTable__timeHeader">22:00</p>
+				<div class="timeTable__event">
+					<div class="timeTable__eventHorizontalLine"></div>
+					<div class="timeTable__eventMarkerWrapper timeTable__eventMarkerWrapper--position1">
+						<div class="timeTable__eventVerticalLine timeTable__eventVerticalLine--up timeTable__eventVerticalLine--main"></div>
+						<div class="timeTable__eventVerticalLine timeTable__eventVerticalLine--down timeTable__eventVerticalLine--main"></div>
+						<div class="timeTable__eventDot timeTable__eventDot--middleEndUp">
+							<svg  height="12" width="12">
+								<circle cx="6" cy="6" r="6" fill="#CD959A"/>  
+							</svg> 
+						</div>
+					</div>
+				</div>
+			</div>		
+			<!-- 11 PM -->
+			<div class="timeTable__row">
+				<p class="timetimeTable__timeHeader">23:00</p>
+				<div class="timeTable__event">
+					<div class="timeTable__eventHorizontalLine"></div>
+					<div class="timeTable__eventMarkerWrapper timeTable__eventMarkerWrapper--position1">
+						<div class="timeTable__eventVerticalLine timeTable__eventVerticalLine--up timeTable__eventVerticalLine--main"></div>
+						<div class="timeTable__eventVerticalLine timeTable__eventVerticalLine--down timeTable__eventVerticalLine--main"></div>
+						<div class="timeTable__eventTimeAndDetails timeTable__eventTimeAndDetails--down">
+							<p>23:30 - 24:00 <a class="timeTable__eventTimeAndDetails--main">| Expo and Judging</a></p>
+						</div>
+					</div>
+				</div>
+			</div>	
+			<!-- 12 PM -->
+			<div class="timeTable__row">
+				<p class="timetimeTable__timeHeader">24:00</p>
+				<div class="timeTable__event">
+					<div class="timeTable__eventHorizontalLine"></div>
+					<div class="timeTable__eventMarkerWrapper timeTable__eventMarkerWrapper--position1">
+						<div class="timeTable__eventDot">
+							<svg  height="12" width="12">
+								<circle cx="6" cy="6" r="6" fill="#CD959A"/>  
+							</svg> 
+						</div>
+						<div class="timeTable__eventVerticalLine timeTable__eventVerticalLine--up timeTable__eventVerticalLine--main"></div>
+					</div>
+					<div class="timeTable__eventMarkerWrapper timeTable__eventMarkerWrapper--position2">
+						<div class="timeTable__eventDot">
+							<svg  height="12" width="12">
+								<circle cx="6" cy="6" r="6" fill="#2F80ED"/>  
+							</svg> 
+						</div>
+						<div class="timeTable__eventVerticalLine timeTable__eventVerticalLine--down timeTable__eventVerticalLine--presentation"></div>
+						<div class="timeTable__eventTimeAndDetails timeTable__eventTimeAndDetails--up">
+							<p>24:00 - 25:00 <a class="timeTable__eventTimeAndDetails--presentation">| Awards and Closing Ceremony</a></p>
+						</div>
+					</div>
+				</div>
+			</div>		
+			<!-- 1 AM -->
+			<div class="timeTable__row">
+				<p class="timetimeTable__timeHeader">25:00</p>
+				<div class="timeTable__event">
+					<div class="timeTable__eventHorizontalLine"></div>
+					<div class="timeTable__eventMarkerWrapper timeTable__eventMarkerWrapper--position2">
+						<div class="timeTable__eventDot">
+							<svg  height="12" width="12">
+								<circle cx="6" cy="6" r="6" fill="#2F80ED"/>  
+							</svg> 
+						</div>
+						<div class="timeTable__eventVerticalLine timeTable__eventVerticalLine--up timeTable__eventVerticalLine--presentation"></div>
+					</div>
+				</div>
+			</div>		
+		</div>
+	</section>
+
+	<section id="location" class="onePagerSection onePagerSection--location">	
+		<h1 class="onePagerSection__title">Location</h1>
+		<div class="locationFlexContainer">
+			<div class="map">
+				<div id="hackathonMaps"></div>
+			</div>
+		</div>
+	</section>
+  
+	<section id="faq" class="onePagerSection onePagerSection--faq">
+		<h1 class="onePagerSection__title">FAQ</h1>
+		<div class="QandAFlexContainer">
+			<div class="QandAFlexCol">
+				<div class="QandA">
+					<h1 class="faq__question">Who is UTRA?</h1>
+					<div class="faq__answerWrapper">
+						<p class="faq__answer">UTRA stands for the University of Toronto Robotics Association. We are the largest active robotics group on campus. Our mission is to foster interests in robotics, and teach anybody who is interested all that they need to know to be able to contribute. We are currently running 5 sub-teams at varying technical skill levels, making it easy for both beginners and veterans to embrace their passion in robotics. Our 5 sub-teams include SUMO, RoboSoccer, Combat, Autonomous Rover Team (ART), and 3D Printing (3DP). Visit our website, www.utra.ca for more information!</p>
+					</div>
+				</div>
+				<div class="QandA">
+					<h1 class="faq__question">When / Where is utraHacks?</h1>
+					<div class="faq__answerWrapper">
+						<p class="faq__answer">UtraHacks will be hosted at University of Toronto, on September 28th, 2018.</p>
+					</div>
+				</div>
+				<div class="QandA">
+					<h1 class="faq__question">How do hackathons work?</h1>
+					<div class="faq__answerWrapper">
+						<p class="faq__answer">Hackathon are awesome events where you can dedicate some hours of your time to come up with a creative solution to a problem. We will provide you with food, drinks, workshops, entertainment, and all the caffeine required for you to bring your idea to life.</p>
+					</div>
+				</div>
+				<div class="QandA">
+					<h1 class="faq__question">What hardware will be available?</h1>
+					<div class="faq__answerWrapper">
+						<p class="faq__answer">We will be posting a list of hardware shortly. Keep an eye on our Facebook Page!</p>
+					</div>
+				</div>
+				<div class="QandA">
+					<h1 class="faq__question">Who can attend?</h1>
+					<div class="faq__answerWrapper">
+						<p class="faq__answer">Anyone, as long as you will 18 or older by September 2018, you are welcome to join us at UtraHacks. Form a team with your friends or come alone, and join us for an action-packed weekend of hacking, and building something amazing.</p>
+					</div>
+				</div>
+			</div>
+			<div class="QandAFlexCol">
+				<div class="QandA">
+					<h1 class="faq__question">What size should teams be?</h1>
+					<div class="faq__answerWrapper">
+						<p class="faq__answer">We are allowing up to 4 hackers per team. Solo hackers are also welcomed, but we also have a team finding process. (see below)</p>
+					</div>
+				</div>
+				<div class="QandA">
+					<h1 class="faq__question">I don’t have a team. Can I still apply?</h1>
+					<div class="faq__answerWrapper">
+						<p class="faq__answer">Absolutely! After registering, we will have a participants Facebook group where you can find other hackers like yourself and form a team. A few days before the event, we’ll also have a Slack channel dedicated to bringing people together. Lastly, after opening ceremonies, we will have a time-slot for you everyone to meet each other, and will be the last chance to form teams.</p>
+					</div>
+				</div>
+				<div class="QandA">
+					<h1 class="faq__question">I'm a beginner. Can I still apply?</h1>
+					<div class="faq__answerWrapper">
+						<p class="faq__answer">Of course! Hackathons are a great opportunity to learn and grow, especially for beginners. We will also have tons of mentors and resources to help your throughout the event.</p>
+					</div>
+				</div>
+
+				<div class="QandA">
+					<h1 class="faq__question">What should I make?</h1>
+					<div class="faq__answerWrapper">
+						<p class="faq__answer">You can make anything you like! For utraHacks, we are primarily focusing on hardware, however, software hacks are also allowed! If you don’t have an idea, don’t worry and apply anyways, ideas might come to you while you are the event itself.</p>
+					</div>
+				</div>
+						
+				
+				<div class="QandA">
+					<h1 class="faq__question">Are you providing travel reimbursements?</h1>
+					<div class="faq__answerWrapper">
+						<p class="faq__answer">Yes, we will be providing travel reimbursement on an individual basis. Details about how travel compensation will be released soon!</p>
+					</div>
+				</div>	
+			</div>
+			<div class="QandAFlexCol">
+							
+				<div class="QandA">
+					<h1 class="faq__question">What should I bring?</h1>
+					<div class="faq__answerWrapper">
+						<p class="faq__answer">You’ll need to bring a laptop, chargers, and anything else that you need to hack with! You’ll also need to bring your student card to check-in and a government-issued ID, if you plan to borrow any hardware. If you are bringing your own hardware, please let us know through our email (hackinfo@utra.ca). Lastly, if you wish to stay overnight, don’t forget to bring you sleeping bags, toiletries, and comfortable clothes!</p>
+					</div>
+				</div>	
+				<div class="QandA">
+					<h1 class="faq__question">Can I keep what I make?</h1>
+					<div class="faq__answerWrapper">
+						<p class="faq__answer">In general, yes! However, some of the components that you borrow will have to be returned at the end of the event. More details regarding this will be released shortly.</p>
+					</div>
+				</div>	
+				<div class="QandA">
+					<h1 class="faq__question">How much does it cost?</h1>
+					<div class="faq__answerWrapper">
+						<p class="faq__answer">Nothing! Well, time and effort... But other than that, everything is provided for free!</p>
+					</div>
+				</div>
+					
+				<div class="QandA">
+					<h1 class="faq__question">How does judging work?</h1>
+					<div class="faq__answerWrapper">
+						<p class="faq__answer">Since many of you will be building hardware hacks, we would like the judges to see it in action! The first stage of judging will begin at our Demo Expo, where companies, volunteers, and judges will be walking around and asking questions about your hack. The judges will then pick the Top 5 teams, and those who make it, will give a final presentation at the closing ceremonies. May the best hack win!</p>
+					</div>
+				</div>	
+				<div class="QandA">
+					<h1 class="faq__question">Other questions?</h1>
+					<div class="faq__answerWrapper">
+						<p class="faq__answer">We’d be happy to help!  Send the inquiry over to hackinfo@utra.ca and we’ll answer it right away! :)</p>
+					</div>
+				</div>	
+			</div>
+		</div>		
+	</section>
+  
+	<section id="sponsors" class="onePagerSection onePagerSection--sponsors">
+		<h1 class="onePagerSection__title">2018 Partners</h1>
+		<br>
+		<br>
+		<h1 class="sponsorList__subtitle">Hosted by</h1>
+		<br>
+		<br>
+		<div class="sponsorList">
+			<a class="sponsorList__img sponsorList__img--utra" href="www.utra.ca">
+				<img src="../Pictures/hackathon/sponsors/UTRA.png" alt="University Of Toronto Robotics Association">
+			</a>
+
+		</div>
+		<br>
+		<br>
+		<h1 class="sponsorList__subtitle sponsorList__subtitle--sponsor">Sponsored by</h1>
+		<br>
+		<br>
+		<div class="sponsorList">
+			<a class="sponsorList__img" href="https://www.aoyue.eu/?___store=english&___from_store=english">
+				<img src="../Pictures/hackathon/sponsors/aoyue.jpg" alt="Aoyue">
+			</a>
+			<a class="sponsorList__img" href="https://estimote.com/">
+				<img src="../Pictures/hackathon/sponsors/estimote.png" alt="Estimote">
+			</a>
+			<a class="sponsorList__img" href="https://www.irobot.com/">
+				<img src="../Pictures/hackathon/sponsors/irobot.png" alt="irobot">
+			</a>
+			<a class="sponsorList__img" href="https://www.leapmotion.com/">
+				<img src="../Pictures/hackathon/sponsors/leap.png" alt="Leap">
+			</a>
+
+		</div>
+	</section>
+
+	<footer>
+		{% include hackathonFooter.html %}
+	</footer>
+
+	<!-- scrips -->
+	<script type="text/javascript" src="../resources/javascript/hackathon.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCQQ04VdU2UMEk81eM3kryWP4JrC65Lz5g&callback=initMap"
+    async defer></script>
+
+</body>
+</html>
