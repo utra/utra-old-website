@@ -386,9 +386,11 @@ section {
         padding: 5px 0 5px 0;
         transition: 0.2s color linear, 0.2s background-color linear; }
         .bannerImage .bannerImage__bannerImage__hackathonTextBlock .buttonBlock .buttonBlock__twoCol:hover {
-          color: black;
+          color: #45526B;
           background-color: white;
           cursor: pointer; }
+      .bannerImage .bannerImage__bannerImage__hackathonTextBlock .buttonBlock a {
+        text-decoration: none; }
   .bannerImage .bannerImage__overley {
     position: absolute;
     z-index: 1;
@@ -722,4 +724,5 @@ html, body {
   font-family: 'Abel', sans-serif;
   font-style: normal; }
 
-/*# sourceMappingURL=main.css.map */
+h1, h2, h3, h4, h5, p {
+  color: #45526B; }
