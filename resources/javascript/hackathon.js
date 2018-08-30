@@ -169,7 +169,7 @@ $(document).ready(function(){
   // Countdown stuff to the date
   var counter = $("#hackathonCounter");
 
-  var countDownDate = new Date("Sep 29, 2018 8:00:00").getTime();
+  var countDownDate = new Date("Nov 3, 2018 8:00:00").getTime();
 
   // Update the count down every 1 second
   var interval = setInterval(function() {
