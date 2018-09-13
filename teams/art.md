@@ -6,8 +6,6 @@ title: Autonomous Rover Team
 inMenu: false
 ---
 
-**Regular Meetings:** Every Saturday at 3:00 pm in the UTRA Lab (EA First Floor)
-
 The Autonomous Rover Team (ART) designs and builds the components for several robots. Components are designed to be modular and chassis-independent. Therefore we will build a chassis specific to a competition, install or pre-built components to make it autonomous, then tweak the code to competition-specific details. Sounds simple, right? Now we just need you to make those ‘pre-built’ components :)
 
 **Mechanical**
