@@ -2,7 +2,7 @@
 function initMap() {
     // Styles a map in night mode.
     var map = new google.maps.Map(document.getElementById('hackathonMaps'), {
-      center: {lat: 43.6595745, lng: -79.3973729},
+      center: {lat: 43.660772, lng: -79.396578},
       zoom: 17,
       styles: [
         {elementType: 'geometry', stylers: [{color: '#242f3e'}]},
@@ -86,13 +86,46 @@ function initMap() {
       ]
     });
 
-    var marker = new google.maps.Marker({
-	   position: {lat: 43.6595745, lng: -79.3973729},
-	   map: map,
-	   animation: google.maps.Animation.DROP,
-	   title: 'Bahen Centre for Information Technology'
-	});
-    marker.setMap(map);
+    var infowindow = new google.maps.InfoWindow();
+    var service = new google.maps.places.PlacesService(map);
+    
+ //    var marker = new google.maps.Marker({
+	//    position: {lat: 43.6595745, lng: -79.3973729},
+	//    map: map,
+	//    animation: google.maps.Animation.DROP,
+	//    title: 'Bahen Centre for Information Technology'
+	// });
+
+    service.getDetails({
+          placeId: 'ChIJeVmuwgc1K4gR9aczwrqVfYc'
+        }, function(place, status) {
+          console.log(place);
+          if (status === google.maps.places.PlacesServiceStatus.OK) {
+            var marker = new google.maps.Marker({
+              map: map,
+              animation: google.maps.Animation.DROP,
+              position: place.geometry.location
+            });
+            google.maps.event.addListener(marker, 'click', function() {
+              var name = place.name;
+              var index = name.indexOf(" Innovation");
+              var first = name.substr(0, index);
+
+              var second = name.substr(index + 1);
+
+
+              infowindow.setContent('<div><h2 class="googleMapsPlaceName googleMapsPlaceNameFirst">' + first + '</h2>' +
+                '<h2 class="googleMapsPlaceName googleMapsPlaceNameSecond">' + second + '</h2>' +
+                '<p class="googleMapsAddressText">' + place.address_components[0].long_name + ' ' + place.address_components[1].short_name + '</p>' +
+                '<p class="googleMapsAddressText">' + place.address_components[3].long_name + ', ' + place.address_components[5].short_name + ' ' + place.address_components[7].short_name + '</p>' +
+                '<p class="googleMapsAddressText">' + place.address_components[6].long_name + '</p>' +
+                '<a target="_blank" jstcache="6" class="googleMapsLink" href="' + place.url +'"> <span> View on Google Maps </span> </a></div>');
+              infowindow.open(map, this);
+            });
+          }
+        });
+
+    // marker.setMap(map);
 }
 
 //smooth scrolling
