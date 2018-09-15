@@ -671,9 +671,11 @@ h1, h2, h3, h4, h5, p {
         font-size: 14px;
         font-weight: 500;
         color: #333;
-        font-family: Roboto,Arial;
-        padding-bottom: 3px;
-        padding-top: 3px; }
+        font-family: Roboto,Arial; }
+        .locationFlexContainer .map #hackathonMaps .googleMapsPlaceName.googleMapsPlaceNameFirst{
+          padding-top: 3px; }
+        .locationFlexContainer .map #hackathonMaps .googleMapsPlaceName.googleMapsPlaceNameSecond{
+          padding-bottom: 3px; }
       .locationFlexContainer .map #hackathonMaps .googleMapsAddressText {
         color: #333;
         font-family: Roboto,Arial;
@@ -1049,5 +1051,3 @@ h1, h2, h3, h4, h5, p {
           height: 110px; } }
     .onePagerSection--sponsors .sponsorList.sponsorList--bigLogos .sponsorList__img img {
       height: 100%; }
-
-/*# sourceMappingURL=hackathon.css.map */
