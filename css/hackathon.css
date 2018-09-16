@@ -672,9 +672,9 @@ h1, h2, h3, h4, h5, p {
         font-weight: 500;
         color: #333;
         font-family: Roboto,Arial; }
-        .locationFlexContainer .map #hackathonMaps .googleMapsPlaceName.googleMapsPlaceNameFirst{
+        .locationFlexContainer .map #hackathonMaps .googleMapsPlaceName.googleMapsPlaceNameFirst {
           padding-top: 3px; }
-        .locationFlexContainer .map #hackathonMaps .googleMapsPlaceName.googleMapsPlaceNameSecond{
+        .locationFlexContainer .map #hackathonMaps .googleMapsPlaceName.googleMapsPlaceNameSecond {
           padding-bottom: 3px; }
       .locationFlexContainer .map #hackathonMaps .googleMapsAddressText {
         color: #333;
@@ -1000,6 +1000,35 @@ h1, h2, h3, h4, h5, p {
       @media only screen and (max-width: 370px) {
         .onePagerSection--sponsors .sponsorList .sponsorList__img.sponsorList__img--utra {
           height: 280px; } }
+      @media only screen and (max-width: 350px) {
+        .onePagerSection--sponsors .sponsorList .sponsorList__img.sponsorList__img--utra {
+          height: 260px; } }
+    .onePagerSection--sponsors .sponsorList .sponsorList__img.sponsorList__img--MIE {
+      height: 200px; }
+      @media only screen and (max-width: 860px) {
+        .onePagerSection--sponsors .sponsorList .sponsorList__img.sponsorList__img--MIE {
+          height: 175px; } }
+      @media only screen and (max-width: 770px) {
+        .onePagerSection--sponsors .sponsorList .sponsorList__img.sponsorList__img--MIE {
+          height: 150px; } }
+      @media only screen and (max-width: 670px) {
+        .onePagerSection--sponsors .sponsorList .sponsorList__img.sponsorList__img--MIE {
+          height: 140px; } }
+      @media only screen and (max-width: 580px) {
+        .onePagerSection--sponsors .sponsorList .sponsorList__img.sponsorList__img--MIE {
+          height: 120px; } }
+      @media only screen and (max-width: 510px) {
+        .onePagerSection--sponsors .sponsorList .sponsorList__img.sponsorList__img--MIE {
+          height: 100px; } }
+      @media only screen and (max-width: 430px) {
+        .onePagerSection--sponsors .sponsorList .sponsorList__img.sponsorList__img--MIE {
+          height: 90px; } }
+      @media only screen and (max-width: 400px) {
+        .onePagerSection--sponsors .sponsorList .sponsorList__img.sponsorList__img--MIE {
+          height: 80px; } }
+      @media only screen and (max-width: 350px) {
+        .onePagerSection--sponsors .sponsorList .sponsorList__img.sponsorList__img--MIE {
+          height: 70px; } }
   .onePagerSection--sponsors .sponsorList.sponsorList--bigLogos .sponsorList__img {
     position: relative;
     height: 250px;
@@ -1010,44 +1039,75 @@ h1, h2, h3, h4, h5, p {
     @media only screen and (max-width: 1220px) {
       .onePagerSection--sponsors .sponsorList.sponsorList--bigLogos .sponsorList__img {
         height: 250px; } }
+    @media only screen and (max-width: 1100px) {
+      .onePagerSection--sponsors .sponsorList.sponsorList--bigLogos .sponsorList__img.sponsorList__img--particle {
+        height: 225px; } }
     @media only screen and (max-width: 1080px) {
       .onePagerSection--sponsors .sponsorList.sponsorList--bigLogos .sponsorList__img {
         height: 225px; }
         .onePagerSection--sponsors .sponsorList.sponsorList--bigLogos .sponsorList__img.sponsorList__img--leap {
           height: 250px; } }
+    @media only screen and (max-width: 990px) {
+      .onePagerSection--sponsors .sponsorList.sponsorList--bigLogos .sponsorList__img.sponsorList__img--particle {
+        height: 200px; } }
+    @media only screen and (max-width: 880px) {
+      .onePagerSection--sponsors .sponsorList.sponsorList--bigLogos .sponsorList__img.sponsorList__img--particle {
+        height: 180px; } }
     @media only screen and (max-width: 860px) {
       .onePagerSection--sponsors .sponsorList.sponsorList--bigLogos .sponsorList__img {
         height: 200px; }
         .onePagerSection--sponsors .sponsorList.sponsorList--bigLogos .sponsorList__img.sponsorList__img--leap {
           height: 225px; } }
+    @media only screen and (max-width: 790px) {
+      .onePagerSection--sponsors .sponsorList.sponsorList--bigLogos .sponsorList__img.sponsorList__img--particle {
+        height: 160px; } }
     @media only screen and (max-width: 770px) {
       .onePagerSection--sponsors .sponsorList.sponsorList--bigLogos .sponsorList__img {
         height: 175px; }
         .onePagerSection--sponsors .sponsorList.sponsorList--bigLogos .sponsorList__img.sponsorList__img--leap {
           height: 200px; } }
+    @media only screen and (max-width: 720px) {
+      .onePagerSection--sponsors .sponsorList.sponsorList--bigLogos .sponsorList__img.sponsorList__img--particle {
+        height: 150px; } }
     @media only screen and (max-width: 670px) {
       .onePagerSection--sponsors .sponsorList.sponsorList--bigLogos .sponsorList__img {
         height: 150px;
         margin-bottom: 30px; }
         .onePagerSection--sponsors .sponsorList.sponsorList--bigLogos .sponsorList__img.sponsorList__img--leap {
-          height: 175px; } }
+          height: 175px; }
+        .onePagerSection--sponsors .sponsorList.sponsorList--bigLogos .sponsorList__img.sponsorList__img--particle {
+          height: 125px; } }
     @media only screen and (max-width: 580px) {
       .onePagerSection--sponsors .sponsorList.sponsorList--bigLogos .sponsorList__img {
         height: 125px;
         margin-bottom: 30px; }
         .onePagerSection--sponsors .sponsorList.sponsorList--bigLogos .sponsorList__img.sponsorList__img--leap {
-          height: 150px; } }
+          height: 150px; }
+        .onePagerSection--sponsors .sponsorList.sponsorList--bigLogos .sponsorList__img.sponsorList__img--particle {
+          height: 110px; } }
     @media only screen and (max-width: 510px) {
       .onePagerSection--sponsors .sponsorList.sponsorList--bigLogos .sponsorList__img {
         height: 100px;
         margin-bottom: 30px; }
         .onePagerSection--sponsors .sponsorList.sponsorList--bigLogos .sponsorList__img.sponsorList__img--leap {
-          height: 125px; } }
+          height: 125px; }
+        .onePagerSection--sponsors .sponsorList.sponsorList--bigLogos .sponsorList__img.sponsorList__img--particle {
+          height: 90px; } }
+    @media only screen and (max-width: 460px) {
+      .onePagerSection--sponsors .sponsorList.sponsorList--bigLogos .sponsorList__img.sponsorList__img--particle {
+        height: 80px; } }
     @media only screen and (max-width: 400px) {
       .onePagerSection--sponsors .sponsorList.sponsorList--bigLogos .sponsorList__img {
         height: 90px;
         margin-bottom: 30px; }
         .onePagerSection--sponsors .sponsorList.sponsorList--bigLogos .sponsorList__img.sponsorList__img--leap {
           height: 110px; } }
+    @media only screen and (max-width: 350px) {
+      .onePagerSection--sponsors .sponsorList.sponsorList--bigLogos .sponsorList__img.sponsorList__img--particle {
+        height: 70px; }
+      .onePagerSection--sponsors .sponsorList.sponsorList--bigLogos .sponsorList__img.sponsorList__img--dremel {
+        height: 80px; } }
     .onePagerSection--sponsors .sponsorList.sponsorList--bigLogos .sponsorList__img img {
       height: 100%; }
+
+/*# sourceMappingURL=hackathon.css.map */
