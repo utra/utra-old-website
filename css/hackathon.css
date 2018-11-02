@@ -648,6 +648,194 @@ h1, h2, h3, h4, h5, p {
       font-weight: 600;
       padding: 15px;
       text-align: center; }
+  .aboutFlexContainer .aboutFlexContainer__divider {
+    width: 85%;
+    background-color: #D2DCE5;
+    height: 1px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%); }
+  .aboutFlexContainer .aboutRow {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 300px; }
+    .aboutFlexContainer .aboutRow .aboutRow__icon {
+      width: 300px;
+      position: relative; }
+    .aboutFlexContainer .aboutRow .aboutRow__description {
+      flex: 1;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: relative; }
+      .aboutFlexContainer .aboutRow .aboutRow__description .aboutRow__title {
+        color: #45526B;
+        text-align: center;
+        font-size: 2.0em;
+        font-weight: 600; }
+        .aboutFlexContainer .aboutRow .aboutRow__description .aboutRow__title:after {
+          display: block;
+          content: '';
+          height: 3px;
+          width: 30px;
+          background-color: #CD959A;
+          margin-top: 5px;
+          position: relative;
+          left: 50%;
+          transform: translateX(-50%); }
+      .aboutFlexContainer .aboutRow .aboutRow__description .aboutRow__paragraph {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        text-align: center;
+        color: #45526B; }
+        .aboutFlexContainer .aboutRow .aboutRow__description .aboutRow__paragraph .aboutRow__heading {
+          font-size: 3.4em;
+          white-space: nowrap; }
+        .aboutFlexContainer .aboutRow .aboutRow__description .aboutRow__paragraph .aboutRow__subheading {
+          font-size: 2.0em; }
+    .aboutFlexContainer .aboutRow.aboutRow--Prize .aboutRow__icon {
+      order: 1; }
+      .aboutFlexContainer .aboutRow.aboutRow--Prize .aboutRow__icon img {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        height: 200px;
+        width: 200px; }
+    .aboutFlexContainer .aboutRow.aboutRow--Prize .aboutRow__paragraph {
+      order: 0; }
+    .aboutFlexContainer .aboutRow.aboutRow--Keynote .aboutRow__icon {
+      order: 0; }
+      .aboutFlexContainer .aboutRow.aboutRow--Keynote .aboutRow__icon .aboutRow__iconWrapper {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        height: 200px;
+        width: 200px;
+        clip-path: circle(50% at 50% 50%); }
+        .aboutFlexContainer .aboutRow.aboutRow--Keynote .aboutRow__icon .aboutRow__iconWrapper img {
+          position: relative;
+          height: 220px;
+          width: auto;
+          top: 50%;
+          left: 50%;
+          transform: translate(-48%, -50%); }
+    .aboutFlexContainer .aboutRow.aboutRow--Keynote .aboutRow__paragraph {
+      order: 1; }
+@media only screen and (max-width: 1049px) and (max-width: 920px) {
+  .aboutFlexContainer .aboutRow .aboutRow__description .aboutRow__paragraph .aboutRow__heading {
+    font-size: 3.0em; }
+  .aboutFlexContainer .aboutRow .aboutRow__description .aboutRow__paragraph .aboutRow__subheading {
+    font-size: 1.7em; } }
+@media only screen and (max-width: 1049px) and (max-width: 790px) {
+  .aboutFlexContainer .aboutRow {
+    height: 250px; }
+    .aboutFlexContainer .aboutRow .aboutRow__description .aboutRow__paragraph .aboutRow__heading {
+      font-size: 2.8em; }
+    .aboutFlexContainer .aboutRow .aboutRow__description .aboutRow__paragraph .aboutRow__subheading {
+      font-size: 1.5em; }
+    .aboutFlexContainer .aboutRow .aboutRow__icon {
+      width: 250px; }
+    .aboutFlexContainer .aboutRow.aboutRow--Prize .aboutRow__icon img {
+      height: 175px;
+      width: 175px; }
+    .aboutFlexContainer .aboutRow.aboutRow--Keynote .aboutRow__icon .aboutRow__iconWrapper {
+      height: 175px;
+      width: 175px; }
+      .aboutFlexContainer .aboutRow.aboutRow--Keynote .aboutRow__icon .aboutRow__iconWrapper img {
+        height: 190px; } }
+@media only screen and (max-width: 1049px) and (max-width: 710px) {
+  .aboutFlexContainer .aboutRow {
+    height: 225px; }
+    .aboutFlexContainer .aboutRow .aboutRow__description .aboutRow__paragraph .aboutRow__heading {
+      font-size: 2.6em; }
+    .aboutFlexContainer .aboutRow .aboutRow__description .aboutRow__paragraph .aboutRow__subheading {
+      font-size: 1.3em; }
+    .aboutFlexContainer .aboutRow .aboutRow__icon {
+      width: 200px; }
+    .aboutFlexContainer .aboutRow.aboutRow--Prize .aboutRow__icon img {
+      height: 150px;
+      width: 150px; }
+    .aboutFlexContainer .aboutRow.aboutRow--Keynote .aboutRow__icon .aboutRow__iconWrapper {
+      height: 150px;
+      width: 150px; }
+      .aboutFlexContainer .aboutRow.aboutRow--Keynote .aboutRow__icon .aboutRow__iconWrapper img {
+        height: 165px; } }
+@media only screen and (max-width: 1049px) and (max-width: 600px) {
+  .aboutFlexContainer .aboutRow {
+    height: 200px; }
+    .aboutFlexContainer .aboutRow .aboutRow__description .aboutRow__paragraph .aboutRow__heading {
+      font-size: 2.4em; }
+    .aboutFlexContainer .aboutRow .aboutRow__description .aboutRow__paragraph .aboutRow__subheading {
+      font-size: 1.1em; }
+    .aboutFlexContainer .aboutRow .aboutRow__icon {
+      width: 150px; }
+    .aboutFlexContainer .aboutRow.aboutRow--Prize .aboutRow__icon img {
+      height: 125px;
+      width: 125px; }
+    .aboutFlexContainer .aboutRow.aboutRow--Keynote .aboutRow__icon .aboutRow__iconWrapper {
+      height: 125px;
+      width: 125px; }
+      .aboutFlexContainer .aboutRow.aboutRow--Keynote .aboutRow__icon .aboutRow__iconWrapper img {
+        height: 135px; } }
+@media only screen and (max-width: 1049px) and (max-width: 550px) {
+  .aboutFlexContainer .aboutRow {
+    height: 330px;
+    flex-direction: column; }
+    .aboutFlexContainer .aboutRow .aboutRow__description .aboutRow__paragraph {
+      padding-top: 55px; }
+      .aboutFlexContainer .aboutRow .aboutRow__description .aboutRow__paragraph .aboutRow__heading {
+        font-size: 2.4em; }
+      .aboutFlexContainer .aboutRow .aboutRow__description .aboutRow__paragraph .aboutRow__subheading {
+        font-size: 1.1em; }
+    .aboutFlexContainer .aboutRow .aboutRow__icon {
+      width: 150px;
+      height: 150px;
+      position: relative;
+      left: 50%;
+      transform: translateX(-50%); }
+    .aboutFlexContainer .aboutRow.aboutRow--Prize .aboutRow__icon img {
+      height: 125px;
+      width: 125px; }
+    .aboutFlexContainer .aboutRow.aboutRow--Keynote .aboutRow__icon {
+      order: 2; }
+      .aboutFlexContainer .aboutRow.aboutRow--Keynote .aboutRow__icon .aboutRow__iconWrapper {
+        height: 125px;
+        width: 125px; }
+        .aboutFlexContainer .aboutRow.aboutRow--Keynote .aboutRow__icon .aboutRow__iconWrapper img {
+          height: 135px; } }
+@media only screen and (max-width: 1049px) and (max-width: 360px) {
+  .aboutFlexContainer .aboutRow {
+    height: 330px;
+    flex-direction: column; }
+    .aboutFlexContainer .aboutRow .aboutRow__description .aboutRow__paragraph {
+      padding-top: 55px; }
+      .aboutFlexContainer .aboutRow .aboutRow__description .aboutRow__paragraph .aboutRow__heading {
+        font-size: 2.2em; }
+      .aboutFlexContainer .aboutRow .aboutRow__description .aboutRow__paragraph .aboutRow__subheading {
+        font-size: 1.1em; }
+    .aboutFlexContainer .aboutRow .aboutRow__icon {
+      width: 150px;
+      height: 150px;
+      position: relative;
+      left: 50%;
+      transform: translateX(-50%); }
+    .aboutFlexContainer .aboutRow.aboutRow--Prize .aboutRow__icon img {
+      height: 125px;
+      width: 125px; }
+    .aboutFlexContainer .aboutRow.aboutRow--Keynote .aboutRow__icon {
+      order: 2; }
+      .aboutFlexContainer .aboutRow.aboutRow--Keynote .aboutRow__icon .aboutRow__iconWrapper {
+        height: 125px;
+        width: 125px; }
+        .aboutFlexContainer .aboutRow.aboutRow--Keynote .aboutRow__icon .aboutRow__iconWrapper img {
+          height: 135px; } }
 
 .locationFlexContainer {
   display: flex;
@@ -701,13 +889,22 @@ h1, h2, h3, h4, h5, p {
   text-align: center;
   justify-content: center;
   flex-direction: row;
-  flex-wrap: nowrap; }
+  flex-wrap: wrap; }
+  @media only screen and (max-width: 700px) and (min-width: 551px) {
+    .scheduleLegend {
+      padding-left: 110px;
+      padding-right: 110px; } }
+  @media only screen and (max-width: 550px) and (min-width: 390px) {
+    .scheduleLegend {
+      padding-left: 40px;
+      padding-right: 40px; } }
   .scheduleLegend .scheduleLegend__item {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     margin-left: 30px;
-    margin-right: 30px; }
+    margin-right: 30px;
+    margin-bottom: 15px; }
     @media only screen and (max-width: 420px) {
       .scheduleLegend .scheduleLegend__item {
         margin-left: 15px;
@@ -733,7 +930,7 @@ h1, h2, h3, h4, h5, p {
 
 .timeTableHeader {
   position: relative;
-  margin-top: 30px;
+  margin-top: 20px;
   width: 80%; }
   .timeTableHeader .timeTableHeader__title {
     position: relative;
@@ -759,61 +956,96 @@ h1, h2, h3, h4, h5, p {
       padding: 20px 30px 20px 30px;
       transition: background-color 0.1s linear;
       width: 35.5px; }
-      @media only screen and (max-width: 500px) {
+      @media only screen and (max-width: 670px) {
         .timeTable .timeTable__row .timeTable__timeHeader {
-          padding: 30px 15px 30px 15px; } }
+          padding: 20px 20px 20px 20px; } }
+      @media only screen and (max-width: 550px) {
+        .timeTable .timeTable__row .timeTable__timeHeader {
+          padding: 30px 15px 30px 15px;
+          font-size: 0.95em; } }
+      @media only screen and (max-width: 420px) {
+        .timeTable .timeTable__row .timeTable__timeHeader {
+          padding: 35px 10px 35px 10px; } }
     .timeTable .timeTable__row .timeTable__event {
       position: relative;
       order: 2;
       flex: 1;
       height: 100%;
       transition: background-color 0.1s linear; }
-@media only screen and (max-width: 1049px) and (max-width: 500px) {
-  .timeTable .timeTable__row .timeTable__event .timeTable__eventMarkerWrapper .timeTable__eventTimeAndDetails {
-    transform: translateX(20px); }
-    .timeTable .timeTable__row .timeTable__event .timeTable__eventMarkerWrapper .timeTable__eventTimeAndDetails p {
-      font-size: 0.8em; } }
-@media only screen and (max-width: 1049px) and (max-width: 430px) {
+@media only screen and (max-width: 1049px) and (max-width: 890px) {
+  .timeTable .timeTable__row .timeTable__event .timeTable__eventMarkerWrapper .timeTable__eventTimeAndDetails p {
+    font-size: 0.95em; } }
+@media only screen and (max-width: 1049px) and (max-width: 785px) {
+  .timeTable .timeTable__row .timeTable__event .timeTable__eventMarkerWrapper .timeTable__eventTimeAndDetails p {
+    font-size: 0.9em; } }
+@media only screen and (max-width: 1049px) and (max-width: 710px) {
+  .timeTable .timeTable__row .timeTable__event .timeTable__eventMarkerWrapper .timeTable__eventTimeAndDetails p {
+    font-size: 0.85em; } }
+@media only screen and (max-width: 1049px) and (max-width: 550px) {
+  .timeTable .timeTable__row .timeTable__event .timeTable__eventMarkerWrapper .timeTable__eventTimeAndDetails p {
+    font-size: 0.8em; } }
+@media only screen and (max-width: 1049px) and (max-width: 370px) {
+  .timeTable .timeTable__row .timeTable__event .timeTable__eventMarkerWrapper .timeTable__eventTimeAndDetails p {
+    font-size: 0.8em; } }
+@media only screen and (max-width: 1049px) and (max-width: 520px) {
   .timeTable .timeTable__row .timeTable__event .timeTable__eventMarkerWrapper.timeTable__eventMarkerWrapper--position1 .timeTable__eventTimeAndDetails p {
-    max-width: 150px; } }
-@media only screen and (max-width: 1049px) and (max-width: 350px) {
+    font-size: 1em;
+    max-width: 180px;
+    white-space: normal; } }
+@media only screen and (max-width: 1049px) and (max-width: 370px) {
   .timeTable .timeTable__row .timeTable__event .timeTable__eventMarkerWrapper.timeTable__eventMarkerWrapper--position1 .timeTable__eventTimeAndDetails p {
-    max-width: 100px; } }
+    font-size: 0.9em;
+    max-width: 180px;
+    white-space: normal; } }
       @media only screen and (max-width: 1049px) {
         .timeTable .timeTable__row .timeTable__event .timeTable__eventMarkerWrapper.timeTable__eventMarkerWrapper--position2 {
-          margin-left: 250px; }
-          .timeTable .timeTable__row .timeTable__event .timeTable__eventMarkerWrapper.timeTable__eventMarkerWrapper--position2 .timeTable__eventTimeAndDetails p {
-            max-width: 200px; } }
-    @media only screen and (max-width: 1049px) and (max-width: 430px) {
-      .timeTable .timeTable__row .timeTable__event .timeTable__eventMarkerWrapper.timeTable__eventMarkerWrapper--position2 .timeTable__eventTimeAndDetails p {
-        max-width: 150px; } }
-    @media only screen and (max-width: 1049px) and (max-width: 350px) {
-      .timeTable .timeTable__row .timeTable__event .timeTable__eventMarkerWrapper.timeTable__eventMarkerWrapper--position2 .timeTable__eventTimeAndDetails p {
-        max-width: 100px; } }
-  @media only screen and (max-width: 1049px) and (max-width: 750px) {
+          margin-left: 250px; } }
+  @media only screen and (max-width: 1049px) and (max-width: 520px) {
+    .timeTable .timeTable__row .timeTable__event .timeTable__eventMarkerWrapper.timeTable__eventMarkerWrapper--position2 .timeTable__eventTimeAndDetails p {
+      font-size: 1em;
+      max-width: 150px;
+      white-space: normal; } }
+  @media only screen and (max-width: 1049px) and (max-width: 370px) {
+    .timeTable .timeTable__row .timeTable__event .timeTable__eventMarkerWrapper.timeTable__eventMarkerWrapper--position2 .timeTable__eventTimeAndDetails p {
+      font-size: 0.9em;
+      max-width: 130px;
+      white-space: normal; } }
+  @media only screen and (max-width: 1049px) and (max-width: 890px) {
     .timeTable .timeTable__row .timeTable__event .timeTable__eventMarkerWrapper.timeTable__eventMarkerWrapper--position2 {
       margin-left: 200px; } }
-  @media only screen and (max-width: 1049px) and (max-width: 660px) {
+  @media only screen and (max-width: 1049px) and (max-width: 810px) {
+    .timeTable .timeTable__row .timeTable__event .timeTable__eventMarkerWrapper.timeTable__eventMarkerWrapper--position2 {
+      margin-left: 180px; } }
+  @media only screen and (max-width: 1049px) and (max-width: 785px) {
     .timeTable .timeTable__row .timeTable__event .timeTable__eventMarkerWrapper.timeTable__eventMarkerWrapper--position2 {
       margin-left: 170px; } }
-  @media only screen and (max-width: 1049px) and (max-width: 630px) {
+  @media only screen and (max-width: 1049px) and (max-width: 750px) {
     .timeTable .timeTable__row .timeTable__event .timeTable__eventMarkerWrapper.timeTable__eventMarkerWrapper--position2 {
       margin-left: 140px; } }
-  @media only screen and (max-width: 1049px) and (max-width: 590px) {
+  @media only screen and (max-width: 1049px) and (max-width: 710px) {
     .timeTable .timeTable__row .timeTable__event .timeTable__eventMarkerWrapper.timeTable__eventMarkerWrapper--position2 {
       margin-left: 120px; } }
-  @media only screen and (max-width: 1049px) and (max-width: 560px) {
+  @media only screen and (max-width: 1049px) and (max-width: 640px) {
     .timeTable .timeTable__row .timeTable__event .timeTable__eventMarkerWrapper.timeTable__eventMarkerWrapper--position2 {
       margin-left: 80px; } }
-  @media only screen and (max-width: 1049px) and (max-width: 520px) {
+  @media only screen and (max-width: 1049px) and (max-width: 590px) {
     .timeTable .timeTable__row .timeTable__event .timeTable__eventMarkerWrapper.timeTable__eventMarkerWrapper--position2 {
       margin-left: 50px; } }
-
+  @media only screen and (max-width: 1049px) and (max-width: 370px) {
+    .timeTable .timeTable__row .timeTable__event .timeTable__eventMarkerWrapper.timeTable__eventMarkerWrapper--position2 {
+      margin-left: 40px; } }
+      @media only screen and (max-width: 1049px) {
+        .timeTable .timeTable__row .timeTable__event .timeTable__eventMarkerWrapper .timeTable__eventDot#dinnerDot svg circle {
+          clip-path: url(#cut-off-top); } }
       @media only screen and (min-width: 1050px) {
         .timeTable .timeTable__row .timeTable__event .timeTable__eventMarkerWrapper .timeTable__eventTimeAndDetails {
           white-space: nowrap; }
         .timeTable .timeTable__row .timeTable__event .timeTable__eventMarkerWrapper.timeTable__eventMarkerWrapper--position2 {
-          margin-left: 300px; } }
+          margin-left: calc(50% - 150px); }
+        .timeTable .timeTable__row .timeTable__event .timeTable__eventMarkerWrapper.timeTable__eventMarkerWrapper--position3 {
+          margin-left: calc(100% - 360px); }
+          .timeTable .timeTable__row .timeTable__event .timeTable__eventMarkerWrapper.timeTable__eventMarkerWrapper--position3 .timeTable__eventTimeAndDetails p {
+            max-width: 200px; } }
       .timeTable .timeTable__row .timeTable__event .timeTable__eventHorizontalLine {
         position: relative;
         width: calc(100% - 30px);
@@ -837,6 +1069,8 @@ h1, h2, h3, h4, h5, p {
             top: 100%; }
           .timeTable .timeTable__row .timeTable__event .timeTable__eventMarkerWrapper .timeTable__eventDot.timeTable__eventDot--middleEndDown {
             top: 0%; }
+          .timeTable .timeTable__row .timeTable__event .timeTable__eventMarkerWrapper .timeTable__eventDot#dinnerDot {
+            z-index: 2; }
         .timeTable .timeTable__row .timeTable__event .timeTable__eventMarkerWrapper .timeTable__eventVerticalLine {
           position: absolute;
           width: 2px;
@@ -848,46 +1082,66 @@ h1, h2, h3, h4, h5, p {
             background-color: #2F80ED; }
           .timeTable .timeTable__row .timeTable__event .timeTable__eventMarkerWrapper .timeTable__eventVerticalLine.timeTable__eventVerticalLine--main {
             background-color: #CD959A; }
+          .timeTable .timeTable__row .timeTable__event .timeTable__eventMarkerWrapper .timeTable__eventVerticalLine.timeTable__eventVerticalLine--workshop {
+            background-color: #6FCFC9; }
           .timeTable .timeTable__row .timeTable__event .timeTable__eventMarkerWrapper .timeTable__eventVerticalLine.timeTable__eventVerticalLine--down {
             top: 50%; }
           .timeTable .timeTable__row .timeTable__event .timeTable__eventMarkerWrapper .timeTable__eventVerticalLine.timeTable__eventVerticalLine--up {
             bottom: 50%; }
         .timeTable .timeTable__row .timeTable__event .timeTable__eventMarkerWrapper .timeTable__eventTimeAndDetails {
           position: absolute;
-          transform: translateX(25px); }
+          transform: translateX(25px);
+          white-space: nowrap; }
+          @media only screen and (max-width: 890px) {
+            .timeTable .timeTable__row .timeTable__event .timeTable__eventMarkerWrapper .timeTable__eventTimeAndDetails {
+              transform: translateX(22px); } }
+          @media only screen and (max-width: 785px) {
+            .timeTable .timeTable__row .timeTable__event .timeTable__eventMarkerWrapper .timeTable__eventTimeAndDetails {
+              transform: translateX(20px); } }
+          @media only screen and (max-width: 370px) {
+            .timeTable .timeTable__row .timeTable__event .timeTable__eventMarkerWrapper .timeTable__eventTimeAndDetails {
+              transform: translateX(18px); } }
           .timeTable .timeTable__row .timeTable__event .timeTable__eventMarkerWrapper .timeTable__eventTimeAndDetails .timeTable__eventTimeAndDetails--food {
             color: #F2C94C; }
           .timeTable .timeTable__row .timeTable__event .timeTable__eventMarkerWrapper .timeTable__eventTimeAndDetails .timeTable__eventTimeAndDetails--presentation {
             color: #2F80ED; }
           .timeTable .timeTable__row .timeTable__event .timeTable__eventMarkerWrapper .timeTable__eventTimeAndDetails .timeTable__eventTimeAndDetails--main {
             color: #CD959A; }
+          .timeTable .timeTable__row .timeTable__event .timeTable__eventMarkerWrapper .timeTable__eventTimeAndDetails .timeTable__eventTimeAndDetails--workshop {
+            color: #6FCFC9; }
           .timeTable .timeTable__row .timeTable__event .timeTable__eventMarkerWrapper .timeTable__eventTimeAndDetails.timeTable__eventTimeAndDetails--down {
             bottom: 50%; }
           .timeTable .timeTable__row .timeTable__event .timeTable__eventMarkerWrapper .timeTable__eventTimeAndDetails.timeTable__eventTimeAndDetails--up {
             top: 50%; }
         .timeTable .timeTable__row .timeTable__event .timeTable__eventMarkerWrapper.timeTable__eventMarkerWrapper--position1 {
           margin-left: 20px; }
-    .timeTable .timeTable__row:first-child .timetimeTable__timeHeader {
+    .timeTable .timeTable__row:first-child .timeTable__timeHeader {
       padding-top: 40px; }
+      @media only screen and (max-width: 420px) {
+        .timeTable .timeTable__row:first-child .timeTable__timeHeader {
+          padding-top: 45px; } }
     .timeTable .timeTable__row:first-child .timeTable__event {
       padding-top: 20px;
       height: calc(100% - 20px); }
       .timeTable .timeTable__row:first-child .timeTable__event .timeTable__eventMarkerWrapper {
         height: calc(100% - 20px); }
-      @media only screen and (max-width: 500px) {
+      @media only screen and (max-width: 550px) {
         .timeTable .timeTable__row:first-child .timeTable__event {
           padding-top: 10px;
           height: calc(100% - 10px); }
           .timeTable .timeTable__row:first-child .timeTable__event .timeTable__eventMarkerWrapper {
             height: calc(100% - 10px); } }
-    .timeTable .timeTable__row:last-child .timetimeTable__timeHeader {
+    .timeTable .timeTable__row:last-child .timeTable__timeHeader {
       padding-bottom: 40px; }
+      @media only screen and (max-width: 420px) {
+        .timeTable .timeTable__row:last-child .timeTable__timeHeader {
+          padding-top: 45px; } }
     .timeTable .timeTable__row:last-child .timeTable__event {
       padding-bottom: 20px;
       height: calc(100% - 20px); }
       .timeTable .timeTable__row:last-child .timeTable__event .timeTable__eventMarkerWrapper {
         height: calc(100% - 20px); }
-      @media only screen and (max-width: 500px) {
+      @media only screen and (max-width: 550px) {
         .timeTable .timeTable__row:last-child .timeTable__event {
           padding-bottom: 10px;
           height: calc(100% - 10px); }
@@ -972,20 +1226,37 @@ h1, h2, h3, h4, h5, p {
   margin-right: 30px; }
   .onePagerSection--sponsors .sponsorList .sponsorList__img {
     position: relative;
-    height: 100px;
+    height: 120px;
     margin-top: 30px;
     margin-bottom: 30px;
     margin-left: 15px;
     margin-right: 15px; }
-    @media only screen and (max-width: 620px) {
+    @media only screen and (max-width: 1110px) {
       .onePagerSection--sponsors .sponsorList .sponsorList__img {
-        height: 75px; } }
-    @media only screen and (max-width: 500px) {
+        height: 100px; } }
+    @media only screen and (max-width: 940px) {
+      .onePagerSection--sponsors .sponsorList .sponsorList__img {
+        height: 90px; } }
+    @media only screen and (max-width: 860px) {
+      .onePagerSection--sponsors .sponsorList .sponsorList__img {
+        height: 80px; } }
+    @media only screen and (max-width: 780px) {
+      .onePagerSection--sponsors .sponsorList .sponsorList__img {
+        height: 70px; } }
+    @media only screen and (max-width: 700px) {
+      .onePagerSection--sponsors .sponsorList .sponsorList__img {
+        height: 60px; } }
+    @media only screen and (max-width: 630px) {
       .onePagerSection--sponsors .sponsorList .sponsorList__img {
         height: 50px; } }
-    @media only screen and (max-width: 370px) {
+    @media only screen and (max-width: 550px) {
       .onePagerSection--sponsors .sponsorList .sponsorList__img {
         height: 40px; } }
+    @media only screen and (max-width: 470px) {
+      .onePagerSection--sponsors .sponsorList .sponsorList__img {
+        height: 35px;
+        margin-left: 7px;
+        margin-right: 7px; } }
     .onePagerSection--sponsors .sponsorList .sponsorList__img img {
       height: 100%;
       opacity: 1; }
@@ -1036,6 +1307,13 @@ h1, h2, h3, h4, h5, p {
     margin-bottom: 60px;
     margin-left: 15px;
     margin-right: 15px; }
+    .onePagerSection--sponsors .sponsorList.sponsorList--bigLogos .sponsorList__img.sponsorList__img--qualcomm {
+      height: 350px;
+      margin-top: 0px;
+      margin-bottom: 0px; }
+    .onePagerSection--sponsors .sponsorList.sponsorList--bigLogos .sponsorList__img.sponsorList__img--fdm {
+      margin-top: 10px;
+      margin-bottom: 10px; }
     @media only screen and (max-width: 1220px) {
       .onePagerSection--sponsors .sponsorList.sponsorList--bigLogos .sponsorList__img {
         height: 250px; } }
@@ -1060,7 +1338,9 @@ h1, h2, h3, h4, h5, p {
           height: 225px; } }
     @media only screen and (max-width: 790px) {
       .onePagerSection--sponsors .sponsorList.sponsorList--bigLogos .sponsorList__img.sponsorList__img--particle {
-        height: 160px; } }
+        height: 160px; }
+      .onePagerSection--sponsors .sponsorList.sponsorList--bigLogos .sponsorList__img.sponsorList__img--qualcomm {
+        height: 300px; } }
     @media only screen and (max-width: 770px) {
       .onePagerSection--sponsors .sponsorList.sponsorList--bigLogos .sponsorList__img {
         height: 175px; }
@@ -1068,7 +1348,9 @@ h1, h2, h3, h4, h5, p {
           height: 200px; } }
     @media only screen and (max-width: 720px) {
       .onePagerSection--sponsors .sponsorList.sponsorList--bigLogos .sponsorList__img.sponsorList__img--particle {
-        height: 150px; } }
+        height: 150px; }
+      .onePagerSection--sponsors .sponsorList.sponsorList--bigLogos .sponsorList__img.sponsorList__img--qualcomm {
+        height: 275px; } }
     @media only screen and (max-width: 670px) {
       .onePagerSection--sponsors .sponsorList.sponsorList--bigLogos .sponsorList__img {
         height: 150px;
@@ -1076,7 +1358,9 @@ h1, h2, h3, h4, h5, p {
         .onePagerSection--sponsors .sponsorList.sponsorList--bigLogos .sponsorList__img.sponsorList__img--leap {
           height: 175px; }
         .onePagerSection--sponsors .sponsorList.sponsorList--bigLogos .sponsorList__img.sponsorList__img--particle {
-          height: 125px; } }
+          height: 125px; }
+        .onePagerSection--sponsors .sponsorList.sponsorList--bigLogos .sponsorList__img.sponsorList__img--qualcomm {
+          height: 250px; } }
     @media only screen and (max-width: 580px) {
       .onePagerSection--sponsors .sponsorList.sponsorList--bigLogos .sponsorList__img {
         height: 125px;
@@ -1084,7 +1368,9 @@ h1, h2, h3, h4, h5, p {
         .onePagerSection--sponsors .sponsorList.sponsorList--bigLogos .sponsorList__img.sponsorList__img--leap {
           height: 150px; }
         .onePagerSection--sponsors .sponsorList.sponsorList--bigLogos .sponsorList__img.sponsorList__img--particle {
-          height: 110px; } }
+          height: 110px; }
+        .onePagerSection--sponsors .sponsorList.sponsorList--bigLogos .sponsorList__img.sponsorList__img--qualcomm {
+          height: 225px; } }
     @media only screen and (max-width: 510px) {
       .onePagerSection--sponsors .sponsorList.sponsorList--bigLogos .sponsorList__img {
         height: 100px;
@@ -1092,16 +1378,20 @@ h1, h2, h3, h4, h5, p {
         .onePagerSection--sponsors .sponsorList.sponsorList--bigLogos .sponsorList__img.sponsorList__img--leap {
           height: 125px; }
         .onePagerSection--sponsors .sponsorList.sponsorList--bigLogos .sponsorList__img.sponsorList__img--particle {
-          height: 90px; } }
+          height: 90px; }
+        .onePagerSection--sponsors .sponsorList.sponsorList--bigLogos .sponsorList__img.sponsorList__img--qualcomm {
+          height: 175px; } }
     @media only screen and (max-width: 460px) {
       .onePagerSection--sponsors .sponsorList.sponsorList--bigLogos .sponsorList__img.sponsorList__img--particle {
-        height: 80px; } }
+        height: 80px; }
+      .onePagerSection--sponsors .sponsorList.sponsorList--bigLogos .sponsorList__img.sponsorList__img--qualcomm {
+        height: 130px; } }
     @media only screen and (max-width: 400px) {
       .onePagerSection--sponsors .sponsorList.sponsorList--bigLogos .sponsorList__img {
         height: 90px;
         margin-bottom: 30px; }
         .onePagerSection--sponsors .sponsorList.sponsorList--bigLogos .sponsorList__img.sponsorList__img--leap {
-          height: 110px; } }
+          height: 130px; } }
     @media only screen and (max-width: 350px) {
       .onePagerSection--sponsors .sponsorList.sponsorList--bigLogos .sponsorList__img.sponsorList__img--particle {
         height: 70px; }
@@ -1109,5 +1399,3 @@ h1, h2, h3, h4, h5, p {
         height: 80px; } }
     .onePagerSection--sponsors .sponsorList.sponsorList--bigLogos .sponsorList__img img {
       height: 100%; }
-
-/*# sourceMappingURL=hackathon.css.map */
