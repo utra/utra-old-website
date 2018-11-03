@@ -200,7 +200,7 @@ $(document).ready(function(){
   });
 
   // Countdown stuff to the date
-  var counter = $("#hackathonCounter");
+  /*var counter = $("#hackathonCounter");
 
   var countDownDate = new Date("Nov 3, 2018 8:00:00").getTime();
 
@@ -232,7 +232,7 @@ $(document).ready(function(){
       document.getElementById("#hackathonCounter").innerHTML = "HACKING NOW";
     }
   }, 1000);
-
+*/
 
 });
 
